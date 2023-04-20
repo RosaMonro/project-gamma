@@ -2,6 +2,8 @@ import { Link, Route, Routes } from 'react-router-dom'
 import './App.css'
 import Home from './views/Home'
 import Contact from './views/Contact'
+import './scss/style.scss'
+import Topbar from './components/Topbar'
 
 
 function App() {
@@ -19,6 +21,7 @@ function App() {
           <Route path="/Contact" element={<Contact />} />
         </Routes>
       </main>
+      <Topbar />
     </>
   )
 }
