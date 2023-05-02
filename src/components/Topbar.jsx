@@ -2,11 +2,9 @@ import './topbar.scss'
 
 function Topbar() {
 
-    return (
-      <>
+    return <>
        <h1 className='topbar'>Hola caracola</h1>
       </>
-    )
   }
   
   export default Topbar

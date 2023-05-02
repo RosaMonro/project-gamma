@@ -1,3 +1,4 @@
+
 export default function Nav () {
-    return <h2>NAV</h2>
+    return <h2>Menú</h2>
 }
