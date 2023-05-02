@@ -3,7 +3,7 @@ import './topbar.scss'
 function Topbar() {
 
     return <>
-       <h1 className='topbar'>Hola caracola</h1>
+       {/* <h1 className='topbar'>Hola caracola</h1> */}
       </>
   }
   

@@ -1,14 +1,11 @@
-import Nav from './Nav'
+import Nav from './Nav/Nav'
 import './styleguide.scss'
-import Button from '../components/Btn/Btn'
 
 export default function Styleguide () {
     return <>
-        <h1>esto es la guía de estilo</h1>
         <Nav />
-        <Button />
 
-        <div className="sg--headers">
+        <div className="sg__headers">
             <h1>Soy un encabezado h1</h1>
             <h2>Soy un encabezado h2</h2>
             <h3>Soy un encabezado h3</h3>
@@ -19,4 +16,3 @@ export default function Styleguide () {
     </>
 }
 
-// Tengo que hacer el que borde gris se vea en el navegador. 
