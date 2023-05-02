@@ -17,9 +17,8 @@ function App() {
           <Link to="/Contact">Contacto</Link>
           <Link to="/">Home</Link>
           <Link to="/styleguide">Styleguide</Link>
-
-
       </header>
+      
       <main>
         <Routes>
           <Route path="/" element={<Home />} />
