@@ -15,9 +15,9 @@ function App() {
       <header>
         <h1>Proyecto Gamma</h1>
         <div className="header__nav">
-          <Link to="/Contact">Contacto</Link>
-          <Link to="/">Home</Link>
-          <Link to="/styleguide">Styleguide</Link>
+          <Link to="/Contact" className="header__nav__link">Contacto</Link>
+          <Link to="/" className="header__nav__link">Home</Link>
+          <Link to="/styleguide" className="header__nav__link">Styleguide</Link>
         </div>
       </header>
       

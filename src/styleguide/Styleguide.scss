@@ -1,3 +1,61 @@
+@import '../scss/custom-properties';
+
+// paleta de colores
+
+.sg__color-palette {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 10px;
+  align-items: center;
+  margin-bottom: 100px;
+}
+
+.sg__box-1, .sg__box-2 {
+    display: flex;
+    gap: 10px;
+}
+  
+.sg__color-box {
+    width: 100px;
+    height: 100px;
+}
+
+.color-1 {
+    background-color: $color-1;
+}
+
+.color-2 {
+    background-color: $color-2;
+}
+
+.color-3 {
+    background-color: $color-3;
+}
+
+.color-4 {
+    background-color: $color-4;
+}
+
+.color-5 {
+    background-color: $color-5;
+}
+
+.color-1-light {
+    background-color: $color-1-light;
+}
+
+.color-2-light {
+    background-color: $color-2-light;
+}
+
+.color-3-light {
+    background-color: $color-3-light;
+}
+
+
+// tipografía
+
 .sg__headers {
     border: solid 2px silver;
 }

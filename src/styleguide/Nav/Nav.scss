@@ -1,3 +1,10 @@
+@import '../../scss/custom-properties';
+
+.sg__nav {
+    margin-top: 160px;
+    margin-bottom: 50px;
+}
+
 .sg__nav__ul {
     display: flex;
     flex-direction: row;
@@ -8,7 +15,7 @@
 }
 
 .sg__nav__link {
-    color: blue
+    color: $color-3;
 }
 
 .sg__nav__link:hover {
