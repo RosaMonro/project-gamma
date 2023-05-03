@@ -12,7 +12,8 @@
     margin-bottom: 100px;
     }
 
-    &__box-1, .sg__box-2 {
+    &__box-1, 
+    &__box-2 {
     display: flex;
     gap: 10px;
     }
@@ -32,7 +33,7 @@
     background-color: $color-rosa;
     }
 
-    &azul {
+    &-azul {
     background-color: $color-azul;
     }
 

@@ -9,16 +9,16 @@ export default function Styleguide () {
         <section className="sg__color-palette">
             <h1>Paleta de colores</h1>
             <div className="sg__box-1">
-                <div className="sg__color-box color-4"></div>
-                <div className="sg__color-box color-1"></div>
-                <div className="sg__color-box color-2"></div>
-                <div className="sg__color-box color-3"></div>
-                <div className="sg__color-box color-5"></div>
+                <div className="sg__color-box color-negro"></div>
+                <div className="sg__color-box color-rojo"></div>
+                <div className="sg__color-box color-rosa"></div>
+                <div className="sg__color-box color-azul"></div>
+                <div className="sg__color-box color-blanco"></div>
             </div>
             <div className="sg__box-2">
-                <div className="sg__color-box color-1-light"></div>
-                <div className="sg__color-box color-2-light"></div>
-                <div className="sg__color-box color-3-light"></div>
+                <div className="sg__color-box color-rojo-light"></div>
+                <div className="sg__color-box color-rosa-light"></div>
+                <div className="sg__color-box color-azul-light"></div>
             </div>
         </section>
 
