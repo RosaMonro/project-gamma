@@ -15,9 +15,12 @@
 }
 
 .sg__nav__link {
-    color: $color-3;
+    color: $color-4;
+    font-size: 18px;
 }
 
 .sg__nav__link:hover {
-    color: lightblue;
+    color: $color-4;
+    font-size: 20px;
 }
+
