@@ -1,4 +1,4 @@
-@import '../../scss/custom-properties';
+@import '../../scss/variables';
 
 .sg__nav {
     margin-top: 160px;
@@ -15,12 +15,12 @@
 }
 
 .sg__nav__link {
-    color: $color-4;
+    color: $color-negro;
     font-size: 18px;
 }
 
 .sg__nav__link:hover {
-    color: $color-4;
+    color: $color-negro;
     font-size: 20px;
 }
 
