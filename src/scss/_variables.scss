@@ -10,3 +10,15 @@ $color-blanco: #F6F6F6;
 $color-rojo-light: lighten($color-rojo, 10%);
 $color-rosa-light: lighten($color-rosa, 10%);
 $color-azul-light: lighten($color-azul, 10%);
+
+
+/*---variables de tipografía---*/
+
+$font-primary: 'Roboto', sans-serif;
+$font-secondary: 'Oswald', sans-serif;
+
+$font-headers: $font-secondary;
+$font-paragraf: $font-primary;
+
+
+$font-medium: 1rem;

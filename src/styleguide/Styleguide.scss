@@ -62,7 +62,13 @@
 
 // tipografía
 
-.sg__headers {
-    border: solid 1px $color-negro;
-    padding: 12px;
+.sg__typo {
+    
+    &--headers {
+        font-family: $font-header;
+    }
+
+    &--paragraf {
+        font-family: $font-paragraf;
+    }
 }
