@@ -1,34 +1,32 @@
-@mixin font-size ($font-size: $font-medium)
-    font-size: $font-size;
-    @include mq(medium)
-        font-size: $font-size * 1.2;
+@import '../scss/variables';
+
 
 h1, 
 .h1 {
     @include font-header(medium);    
 }
 
-h2, 
-.h2 {
-    font-size: ;
-}
+// h2, 
+// .h2 {
+//     font-size: ;
+// }
 
-h3, 
-.h3 {
-    font-size: ;
-}
+// h3, 
+// .h3 {
+//     font-size: ;
+// }
 
-h4, 
-.h4 {
-    font-size: ;
-}
+// h4, 
+// .h4 {
+//     font-size: ;
+// }
 
-h5, 
-.h5 {
-    font-size: ;
-}
+// h5, 
+// .h5 {
+//     font-size: ;
+// }
 
-h6, 
-.h6 {
-    font-size: ;
-}
+// h6, 
+// .h6 {
+//     font-size: ;
+// }
