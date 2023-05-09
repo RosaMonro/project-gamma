@@ -15,8 +15,8 @@ header {
   left: 0;
   width: 100%;
   height: 170px;
-  background-color: $color-rosa;
-  color: $color-negro;
+  background-color: $color-grey-3;
+  color: $color-black;
 }
 
 .header__nav {
@@ -28,11 +28,11 @@ header {
 }
 
 .header__nav__link {
-  color: $color-blanco;
+  color: $color-black;
   font-size: 18px;
 }
 
 .header__nav__link:hover {
-  color: $color-blanco;
+  color: $color-grey-2;
   font-size: 20px;
 }

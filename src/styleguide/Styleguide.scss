@@ -25,50 +25,70 @@
 }
 
 .color {
-    &-rojo {
-    background-color: $color-rojo;
+
+    &-fucsia-darken-1 {
+        background-color: $color-fucsia-darken-1;
+        border: 1px $color-black solid;
     }
 
-    &-rosa {
-    background-color: $color-rosa;
+    &-fucsia-darken-2 {
+        background-color: $color-fucsia-darken-2;
+        border: 1px $color-black solid;
     }
 
-    &-azul {
-    background-color: $color-azul;
+    &-fucsia {
+        background-color: $color-fucsia;
+        border: 1px $color-black solid;
     }
 
-    &-negro {
-    background-color: $color-negro;
+    &-fucsia-light-1 {
+        background-color: $color-fucsia-light-1;
+        border: 1px $color-black solid;
     }
 
-    &-blanco {
-    background-color: $color-blanco;
+    &-fucsia-light-2 {
+        background-color: $color-fucsia-light-2;
+        border: 1px $color-black solid;
     }
 
-    &-rojo-light {
-    background-color: $color-rojo-light;
+    &-black {
+        background-color: $color-black;
+        border: 1px $color-black solid;
     }
 
-    &-rosa-light {
-    background-color: $color-rosa-light;
+    &-grey-1 {
+        background-color: $color-grey-1;
+        border: 1px $color-black solid;
     }
 
-    &-azul-light {
-    background-color: $color-azul-light;
+    &-grey-2 {
+        background-color: $color-grey-2;
+        border: 1px $color-black solid;
     }
+
+    &-grey-3 {
+        background-color: $color-grey-3;
+        border: 1px $color-black solid;
+    }
+
+    &-white {
+        background-color: $color-white;
+        border: 1px $color-black solid;
+    }
+    
 }
 
 
 
 // tipografía
 
-.sg__typo {
+// .sg__typo {
     
-    &--headers {
-        font-family: $font-header;
-    }
+//     &--headers {
+//         font-family: $font-header;
+//     }
 
-    &--paragraf {
-        font-family: $font-paragraf;
-    }
-}
+//     &--paragraf {
+//         font-family: $font-paragraf;
+//     }
+// }
