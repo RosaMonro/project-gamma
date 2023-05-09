@@ -1,24 +1,24 @@
 
 /*---variables de color---*/
 
-$color-rojo: #FA4C4E;
-$color-rosa: #F2AFD2;
-$color-azul: #0A89FF;
-$color-negro: #222222;
-$color-blanco: #F6F6F6;
+$color-fucsia: #F300B4;
+$color-fucsia-darken-1: darken($color-fucsia, 40%);
+$color-fucsia-darken-2: darken($color-fucsia, 20%);
+$color-fucsia-light-1: lighten($color-fucsia, 30%);
+$color-fucsia-light-2: lighten($color-fucsia, 40%);
 
-$color-rojo-light: lighten($color-rojo, 10%);
-$color-rosa-light: lighten($color-rosa, 10%);
-$color-azul-light: lighten($color-azul, 10%);
+$color-black: #000000;
+$color-grey-1: lighten($color-black, 20%);
+$color-grey-2: lighten($color-black, 70%);
+$color-grey-3: lighten($color-black, 90%);
+$color-white: #FFFFFF;
+
 
 
 /*---variables de tipografía---*/
 
-$font-primary: 'Roboto', sans-serif;
-$font-secondary: 'Oswald', sans-serif;
-
-$font-headers: $font-secondary;
-$font-paragraf: $font-primary;
+$font-primary: 'Raleway', sans-serif;
 
 
-$font-medium: 1rem;
+
+// $font-medium: 1rem;
