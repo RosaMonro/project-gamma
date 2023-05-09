@@ -7,7 +7,7 @@ export default function Styleguide () {
         <Nav />
 
         <section className="sg__color-palette">
-            <h1>Paleta de colores</h1>
+            <h1 className="h2">Paleta de colores</h1>
 
             <div className="sg__box-1">
                 <div className="sg__color-box color-fucsia-darken-1"></div>
@@ -27,23 +27,23 @@ export default function Styleguide () {
         </section>
 
         <section className="sg__typo">
+            <h1 className="h2">Tipografía</h1>
             <div className="sg__typo--headers">
-                <h1>Soy un encabezado h1</h1>
-                <h2>Soy un encabezado h2</h2>
-                <h3>Soy un encabezado h3</h3>
-                <h4>Soy un encabezado h4</h4>
-                <h5>Soy un encabezado h5</h5>
-                <h6>Soy un encabezado h6</h6>
+                <h1>H1 - Soy un encabezado</h1>
+                <h2>H2 - Soy un encabezado</h2>
+                <h3>H3 - Soy un encabezado</h3>
+                <h4>H4 - Soy un encabezado</h4>
+                <h5>H5 - Soy un encabezado</h5>
+                <h6>H6 - Soy un encabezado</h6>
             </div>
 
-            <div className="sg__typo--paragraf">
-                <h1>Soy un encabezado h1</h1>
-                <h2>Soy un encabezado h2</h2>
-                <h3>Soy un encabezado h3</h3>
-                <h4>Soy un encabezado h4</h4>
-                <h5>Soy un encabezado h5</h5>
-                <h6>Soy un encabezado h6</h6>
+            <div>
+                <p>Soy un párrafo - Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+                    Dolores, impedit iusto cumque itaque voluptates nesciunt, debitis odit 
+                    molestias ex quae eveniet voluptatem? Doloremque incidunt provident 
+                    explicabo ea est illum debitis!</p>
             </div>
+
         </section>
 
     </>

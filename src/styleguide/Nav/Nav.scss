@@ -1,7 +1,7 @@
 @import '../../scss/variables';
 
 .sg__nav {
-    margin-top: 160px;
+    margin-top: 50px;
     margin-bottom: 50px;
 }
 
@@ -17,6 +17,7 @@
 .sg__nav__link {
     color: $color-black;
     font-size: 18px;
+    text-decoration: none;
 }
 
 .sg__nav__link:hover {

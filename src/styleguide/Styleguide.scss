@@ -82,13 +82,10 @@
 
 // tipografía
 
-// .sg__typo {
-    
-//     &--headers {
-//         font-family: $font-header;
-//     }
+.sg__typo {
 
-//     &--paragraf {
-//         font-family: $font-paragraf;
-//     }
-// }
+    &--headers {
+        text-align: left;
+        color: $color-grey-1
+    }
+}
