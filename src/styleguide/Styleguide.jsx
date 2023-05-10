@@ -1,4 +1,6 @@
+import Button from '../components/Btn/Btn';
 import Nav from './Nav/Nav';
+
 import './Styleguide.scss';
 
 export default function Styleguide () {
@@ -27,7 +29,9 @@ export default function Styleguide () {
         </section>
 
         <section className="sg__typo">
+
             <h1 className="h2">Tipografía</h1>
+
             <div className="sg__typo--headers">
                 <h1>H1 - Soy un encabezado</h1>
                 <h2>H2 - Soy un encabezado</h2>
@@ -42,6 +46,16 @@ export default function Styleguide () {
                     Dolores, impedit iusto cumque itaque voluptates nesciunt, debitis odit 
                     molestias ex quae eveniet voluptatem? Doloremque incidunt provident 
                     explicabo ea est illum debitis!</p>
+            </div>
+
+        </section>
+
+        <section>
+
+            <h1 className="h2">Botones y enlaces</h1>
+
+            <div className="sg__button">
+                <Button />
             </div>
 
         </section>

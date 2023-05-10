@@ -1,0 +1,28 @@
+@import '../../scss/_variables.scss';
+
+.btn{
+    width: 260px;
+    height: 65px;
+    font-family: $font-primary;
+    font-size: $font-size-m;
+    font-weight: $font-bold;
+
+    &--primary {
+        
+    }
+
+    &--secondary {
+        background-color: $color-white;
+        color: $color-fucsia;
+    }
+
+    &--cta {
+        background-color: $color-fucsia;
+        color: $color-white;
+    }
+
+}
+
+
+
+//los botones no heredan tipografía de body. Hay q poner la font family
