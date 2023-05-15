@@ -3,26 +3,83 @@
 .btn{
     width: 260px;
     height: 65px;
+    max-width: 275px;
     font-family: $font-primary;
     font-size: $font-size-m;
-    font-weight: $font-bold;
+    font-weight: $font-semibold;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    margin: 50px 24px 50px 24px;
 
     &--primary {
-        
+        background-color: $color-white;
+        color: $color-black;
+        border-bottom: 2px $color-fucsia solid;
+        border-top: 2px $color-white solid;
+        border-left: 2px $color-white solid;
+        border-right: 2px $color-white solid;
+
+        &:hover {
+            border: 2px $color-fucsia solid;
+        }
     }
 
     &--secondary {
         background-color: $color-white;
-        color: $color-fucsia;
+        color: $color-black;
+        border: 2px $color-white solid;
+
+        &:hover {
+            border: 2px $color-grey-2 solid;
+            color: $color-grey-2;
+        }
     }
 
     &--cta {
         background-color: $color-fucsia;
         color: $color-white;
-    }
+        border: 2px $color-fucsia solid;
 
+        &:hover {
+            background-color: $color-white;
+            color: $color-fucsia;
+        }
+    }
 }
 
+.link {
+    margin: 50px 60px 50px 60px;
+    display: inline-block;
+    padding: 24px;
+    font-family: $font-primary;
+    font-size: $font-size-m;
+    font-weight: $font-bold;
+    text-decoration: none;
+    cursor: pointer;
 
+    &--primary {
+        color: $color-fucsia;
+    }
 
-//los botones no heredan tipografía de body. Hay q poner la font family
+    &--secondary {
+        color: $color-grey-2;
+
+        &:hover {
+            color: $color-fucsia;
+        }
+    }
+
+    &--cta {
+        color: $color-white;
+        background-color: $color-grey-2;
+
+        &:hover {
+            color: $color-black;
+        }
+    }
+}
+
+//los botones no heredan tipografía de body. Hay q poner 
+//la font-family
