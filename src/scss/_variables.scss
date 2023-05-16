@@ -1,18 +1,31 @@
 
 /*---VARIABLES DE COLOR---*/
 
-$color-fucsia:             #F300B4;
-$color-fucsia-darken-1:    darken($color-fucsia, 30%);
-$color-fucsia-darken-2:    darken($color-fucsia, 20%);
-$color-fucsia-light-1:     lighten($color-fucsia, 30%);
-$color-fucsia-light-2:     lighten($color-fucsia, 40%);
+        /*----colores---*/
 
-$color-black:              #1B171C;
-$color-grey-1:             lighten($color-black, 20%);
-$color-grey-2:             lighten($color-black, 70%);
-$color-grey-3:             lighten($color-black, 85%);
-$color-white:              #FFFFFF;
+        $color-fucsia:          #F300B4;
+        $color-fuscia-darken:   darken($color-fucsia, 30%);
+        $color-fuscia-lighten:  lighten($color-fucsia, 40%);
 
+        $color-black:           #1B171C;
+        $color-black-lighten:   lighten($color-black, 30%);
+        $color-grey:            lighten($color-black, 60%);
+        $color-grey-lighten:    lighten($color-black, 80%);
+        $color-white-darken:    lighten($color-black, 87%);
+        $color-white:           #ffffff;
+
+        /*----Variables de color para BG----*/
+
+        $background-color-color-fucsia:          #F300B4;
+        $background-color-color-fuscia-darken:   darken($background-color-color-fucsia, 30%);
+        $background-color-color-fuscia-lighten:  lighten($background-color-color-fucsia, 40%);
+
+        $background-color-color-black:           #1B171C;
+        $background-color-color-black-lighten:   lighten($background-color-color-black, 30%);
+        $background-color-color-grey:            lighten($background-color-color-black, 60%);
+        $background-color-color-grey-lighten:    lighten($background-color-color-black, 80%);
+        $background-color-color-white-darken:    lighten($background-color-color-black, 87%);
+        $background-color-color-white:           #ffffff;
 
 
 /*---VARIABLES DE TIPOGRAFÍA---*/
@@ -33,10 +46,17 @@ $color-white:              #FFFFFF;
         $font-size-xl:  6.4rem; // 64px
         $font-size-xxl: 9.6rem; // 96px
 
+        /*---tamaños párrafos----*/
+
+        $p-small: $font-size-xs;
+        $p-normal: $font-size-sm;
+        $p-large: $font-size-m;
+
         /*----pesos de fuente----*/
 
         $font-bold:     700;
         $font-semibold: 600;
         $font-medium:   500;
         $font-light:    300;
+
 

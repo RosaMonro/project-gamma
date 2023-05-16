@@ -22,21 +22,12 @@
     width: 100px;
     height: 100px;
     }
-
-    &__button {
-        
-    }
 }
 
 .color {
 
-    &-fucsia-darken-1 {
-        background-color: $color-fucsia-darken-1;
-        border: 1px $color-black solid;
-    }
-
-    &-fucsia-darken-2 {
-        background-color: $color-fucsia-darken-2;
+    &-fuscia-darken {
+        background-color: $color-fuscia-darken;
         border: 1px $color-black solid;
     }
 
@@ -45,13 +36,8 @@
         border: 1px $color-black solid;
     }
 
-    &-fucsia-light-1 {
-        background-color: $color-fucsia-light-1;
-        border: 1px $color-black solid;
-    }
-
-    &-fucsia-light-2 {
-        background-color: $color-fucsia-light-2;
+    &-fuscia-lighten {
+        background-color: $color-fuscia-lighten;
         border: 1px $color-black solid;
     }
 
@@ -60,18 +46,23 @@
         border: 1px $color-black solid;
     }
 
-    &-grey-1 {
-        background-color: $color-grey-1;
+    &-black-lighten {
+        background-color: $color-black-lighten;
         border: 1px $color-black solid;
     }
 
-    &-grey-2 {
-        background-color: $color-grey-2;
+    &-grey {
+        background-color: $color-grey;
         border: 1px $color-black solid;
     }
 
-    &-grey-3 {
-        background-color: $color-grey-3;
+    &-grey-lighten {
+        background-color: $color-grey-lighten;
+        border: 1px $color-black solid;
+    }
+
+    &-white-darken {
+        background-color: $color-white-darken;
         border: 1px $color-black solid;
     }
 
@@ -90,6 +81,6 @@
 
     &--headers {
         text-align: left;
-        color: $color-grey-1
+        color: $color-black-lighten
     }
 }
