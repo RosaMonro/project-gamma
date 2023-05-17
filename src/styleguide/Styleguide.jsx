@@ -12,9 +12,9 @@ export default function Styleguide () {
             <h1 className="h2">Paleta de colores</h1>
 
             <div className="sg__box-1">
-                <div className="sg__color-box color-fuscia-darken"></div>
+                <div className="sg__color-box color-fucsia-darken"></div>
                 <div className="sg__color-box color-fucsia"></div>
-                <div className="sg__color-box color-fuscia-lighten"></div>
+                <div className="sg__color-box color-fucsia-lighten"></div>
             </div>
 
             <div className="sg__box-2">

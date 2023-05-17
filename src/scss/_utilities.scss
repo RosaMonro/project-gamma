@@ -65,16 +65,16 @@
         background-color: $background-color-color-white;
     }
 
-//---Clases para PARRAFOS ¿?¿?¿?¿?¿?
+//---Clases para PARRAFOS
 
-.p-small {
-    font-size: $p-small;
+.text-small {
+    font-size: $font-size-xs;
 }
 
-.p-normal {
-    font-size: $p-normal;
+.text-normal {
+    font-size: $font-size-sm;
 }
 
-.p-large {
-    font-size: $p-large;
+.text-large {
+    font-size: $font-size-m;
 }

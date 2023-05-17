@@ -1,0 +1,24 @@
+@import '../../scss/_variables.scss';
+
+// $grid: 8;
+// $gap: 8px;
+// $grid-margin: $gap;
+
+// .grid {
+//   display: flex;
+//   width: 100%;
+//   gap: $gap;
+//   margin: $grid-margin;
+// }
+
+
+// [class^="grid__item--"] {
+//     height: 50px;
+//     background-color: $color-fucsia;
+// }
+
+// @for $i from 1 through $grid {
+//     .grid__item--#{$i} {
+//        flex: 0 0 (($i / $grid) * 100%);
+//     }
+// }

@@ -4,8 +4,8 @@
         /*----colores---*/
 
         $color-fucsia:          #F300B4;
-        $color-fuscia-darken:   darken($color-fucsia, 30%);
-        $color-fuscia-lighten:  lighten($color-fucsia, 40%);
+        $color-fucsia-darken:   darken($color-fucsia, 30%);
+        $color-fucsia-lighten:  lighten($color-fucsia, 40%);
 
         $color-black:           #1B171C;
         $color-black-lighten:   lighten($color-black, 30%);
@@ -17,8 +17,8 @@
         /*----Variables de color para BG----*/
 
         $background-color-color-fucsia:          #F300B4;
-        $background-color-color-fuscia-darken:   darken($background-color-color-fucsia, 30%);
-        $background-color-color-fuscia-lighten:  lighten($background-color-color-fucsia, 40%);
+        $background-color-color-fucsia-darken:   darken($background-color-color-fucsia, 30%);
+        $background-color-color-fucsia-lighten:  lighten($background-color-color-fucsia, 40%);
 
         $background-color-color-black:           #1B171C;
         $background-color-color-black-lighten:   lighten($background-color-color-black, 30%);
@@ -26,6 +26,32 @@
         $background-color-color-grey-lighten:    lighten($background-color-color-black, 80%);
         $background-color-color-white-darken:    lighten($background-color-color-black, 87%);
         $background-color-color-white:           #ffffff;
+
+        /*-----mapa de colores para colors y bg-colors---*/
+
+        $colors: (
+                "fucsia": $color-fucsia,
+                "fucsia-darken": $color-fucsia-darken,
+                "fucsia-lighten": $color-fucsia-lighten,
+                "black": $color-black,
+                "black-lighten": $color-black-lighten,
+                "rey": $color-grey,
+                "grey-lighten": $color-grey-lighten,
+                "white-darken": $color-white-darken,
+                "white": $color-white
+        );
+
+        @each $color, $i in $colors {
+                .color-#{$color} {
+                        color: $i;
+                }
+                
+                .color-bg-#{$color} {
+                    background-color: $i;
+                }
+        }
+
+        //HACER LO MISMO CON LA TIPOS!!!!!
 
 
 /*---VARIABLES DE TIPOGRAFÍA---*/
@@ -45,12 +71,6 @@
         $font-size-l:   3.6rem; // 36px
         $font-size-xl:  6.4rem; // 64px
         $font-size-xxl: 9.6rem; // 96px
-
-        /*---tamaños párrafos----*/
-
-        $p-small: $font-size-xs;
-        $p-normal: $font-size-sm;
-        $p-large: $font-size-m;
 
         /*----pesos de fuente----*/
 

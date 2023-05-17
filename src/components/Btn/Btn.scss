@@ -62,6 +62,10 @@
 
     &--primary {
         color: $color-fucsia;
+
+        &:hover {
+            text-decoration: underline;
+        }
     }
 
     &--secondary {
