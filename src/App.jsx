@@ -3,7 +3,6 @@ import './App.scss'
 import './scss/global.scss'
 import Home from './views/Home'
 import Contact from './views/Contact'
-import Topbar from './components/Topbar/Topbar'
 import Styleguide from './styleguide/Styleguide'
 
 
@@ -28,7 +27,6 @@ function App() {
           <Route path="/styleguide" element={<Styleguide />} />
         </Routes>
       </main>
-      <Topbar />
     </>
   )
 }
