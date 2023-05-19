@@ -74,12 +74,12 @@
 }
 
 
-
 // tipografía
 
 .sg__typo {
 
-    &--headers {
+    &--headers,
+    &--paragraph {
         text-align: left;
         color: $color-black-lighten
     }

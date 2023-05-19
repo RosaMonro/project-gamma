@@ -35,7 +35,7 @@
                 "fucsia-lighten": $color-fucsia-lighten,
                 "black": $color-black,
                 "black-lighten": $color-black-lighten,
-                "rey": $color-grey,
+                "grey": $color-grey,
                 "grey-lighten": $color-grey-lighten,
                 "white-darken": $color-white-darken,
                 "white": $color-white
@@ -50,8 +50,6 @@
                     background-color: $i;
                 }
         }
-
-        //HACER LO MISMO CON LAS TIPOS!!!!!
 
 
 /*---VARIABLES DE TIPOGRAFÍA---*/
@@ -72,16 +70,57 @@
         $font-size-xl:  6.4rem; // 64px
         $font-size-xxl: 9.6rem; // 96px
 
+        $sizes: (
+                "size-xxs": $font-size-xxs,
+                "size-xs": $font-size-xs,
+                "size-s": $font-size-s,
+                "size-sm": $font-size-sm,
+                "size-m": $font-size-m,
+                "size-lm": $font-size-lm,
+                "size-l": $font-size-l,
+                "size-xl": $font-size-xl,
+                "size-xxl": $font-size-xxl,
+        );
+
+        @each $size, $i in $sizes {
+                .font-#{$size} {
+                        font-size: $i;
+                }
+        }
+
         /*----pesos de fuente----*/
 
-        $font-bold:     700;
-        $font-semibold: 600;
-        $font-medium:   500;
-        $font-light:    300;
+        $font-weight-bold:     700;
+        $font-weight-semibold: 600;
+        $font-weight-medium:   500;
+        $font-weight-light:    300;
+
+        $weights: (
+                "weight-bold": $font-weight-bold,
+                "weight-semibold": $font-weight-semibold,
+                "weight-medium": $font-weight-medium,
+                "weight-ligh": $font-weight-light,
+        );
+
+        @each $weight, $i in $weights {
+                .font-#{$weight} {
+                        font-weight: $i;
+                }      
+        }
 
         /*---stylos de fuente---*/
 
-        $font-italic: italic;
+        $font-style-italic: italic;
+
+        $styles: (
+                "style-italic": $font-style-italic,
+        );
+
+        @each $style, $i in $styles {
+                .font-#{$style} {
+                        font-style: italic;
+                }
+        }
 
 
 

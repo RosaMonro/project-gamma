@@ -6,7 +6,7 @@
     max-width: 275px;
     font-family: $font-primary;
     font-size: $font-size-m;
-    font-weight: $font-semibold;
+    font-weight: $font-weight-semibold;
     border: none;
     text-align: center;
     text-decoration: none;
@@ -57,13 +57,13 @@
     padding: 24px;
     font-family: $font-primary;
     font-size: $font-size-m;
-    font-weight: $font-bold;
+    font-weight: $font-weight-bold;
     text-decoration: none;
     cursor: pointer;
 
     &--primary {
         color: $color-fucsia;
-        font-weight: $font-semibold;
+        font-weight: $font-weight-semibold;
 
         &:hover {
             text-decoration: underline;
@@ -72,17 +72,17 @@
 
     &--secondary {
         color: $color-fucsia;
-        font-weight: $font-light;
-        font-style: $font-italic;
+        font-weight: $font-weight-light;
+        font-style: $font-style-italic;
 
         &:hover {
-            font-weight: $font-medium;
+            font-weight: $font-weight-medium;
         }
     }
 
     &--cta {
         color: $color-grey;
-        font-weight: $font-semibold;
+        font-weight: $font-weight-semibold;
 
         &:hover {
             color: $color-black;

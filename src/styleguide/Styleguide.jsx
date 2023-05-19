@@ -40,8 +40,16 @@ export default function Styleguide () {
                 <h6>H6 - Soy un encabezado</h6>
             </div>
 
-            <div>
-                <p>Soy un párrafo - Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+            <div class="sg__typo--paragraph">
+                <p  class="font-size-l">Soy un párrafo - Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+                    Dolores, impedit iusto cumque itaque voluptates nesciunt, debitis odit 
+                    molestias ex quae eveniet voluptatem? Doloremque incidunt provident 
+                    explicabo ea est illum debitis!</p>
+                    <p  class="font-size-m">Soy un párrafo - Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+                    Dolores, impedit iusto cumque itaque voluptates nesciunt, debitis odit 
+                    molestias ex quae eveniet voluptatem? Doloremque incidunt provident 
+                    explicabo ea est illum debitis!</p>
+                    <p  class="font-size-sm">Soy un párrafo - Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
                     Dolores, impedit iusto cumque itaque voluptates nesciunt, debitis odit 
                     molestias ex quae eveniet voluptatem? Doloremque incidunt provident 
                     explicabo ea est illum debitis!</p>
