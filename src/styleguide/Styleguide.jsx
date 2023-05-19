@@ -57,13 +57,13 @@ export default function Styleguide () {
 
         </section>
 
-        <section>
+        <section  class="sg__btn">
 
-            <h1 className="h2">Botones y enlaces</h1>
+                <h1 className="h2">Botones y enlaces</h1>
 
-            <div className="sg__button">
-                <Button />
-            </div>
+                <div className="sg__button">
+                    <Button />
+                </div>
 
         </section>
 

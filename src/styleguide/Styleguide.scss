@@ -1,5 +1,7 @@
 @import '../scss/variables';
 
+// http://localhost:5174/styleguide
+
 // paleta de colores
 
 .sg {
@@ -77,9 +79,11 @@
 // tipografía
 
 .sg__typo {
+    text-align: center;
 
     &--headers,
     &--paragraph {
+        margin: 0 150px;
         text-align: left;
         color: $color-black-lighten
     }
