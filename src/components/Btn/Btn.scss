@@ -30,11 +30,12 @@
     &--secondary {
         background-color: $color-white;
         color: $color-black;
-        border: 2px $color-white solid;
+        border: 2px $color-fucsia solid;
 
         &:hover {
-            border: 2px $color-grey solid;
-            color: $color-grey;
+            border: 2px $color-fucsia solid;
+            background-color: $color-fucsia;
+            color: $color-white;
         }
     }
 
@@ -45,7 +46,7 @@
 
         &:hover {
             background-color: $color-white;
-            color: $color-fucsia;
+            color: $color-black;
         }
     }
 }
@@ -62,6 +63,7 @@
 
     &--primary {
         color: $color-fucsia;
+        font-weight: $font-semibold;
 
         &:hover {
             text-decoration: underline;
@@ -69,16 +71,18 @@
     }
 
     &--secondary {
-        color: $color-grey;
+        color: $color-fucsia;
+        font-weight: $font-light;
+        font-style: $font-italic;
 
         &:hover {
-            color: $color-fucsia;
+            font-weight: $font-medium;
         }
     }
 
     &--cta {
-        color: $color-white;
-        background-color: $color-grey;
+        color: $color-grey;
+        font-weight: $font-semibold;
 
         &:hover {
             color: $color-black;

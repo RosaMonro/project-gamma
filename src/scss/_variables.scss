@@ -4,8 +4,8 @@
         /*----colores---*/
 
         $color-fucsia:          #F300B4;
-        $color-fucsia-darken:   darken($color-fucsia, 30%);
-        $color-fucsia-lighten:  lighten($color-fucsia, 40%);
+        $color-fucsia-darken:   #A90074;
+        $color-fucsia-lighten:  #FCECF7;
 
         $color-black:           #1B171C;
         $color-black-lighten:   lighten($color-black, 30%);
@@ -51,7 +51,7 @@
                 }
         }
 
-        //HACER LO MISMO CON LA TIPOS!!!!!
+        //HACER LO MISMO CON LAS TIPOS!!!!!
 
 
 /*---VARIABLES DE TIPOGRAFÍA---*/
@@ -78,5 +78,10 @@
         $font-semibold: 600;
         $font-medium:   500;
         $font-light:    300;
+
+        /*---stylos de fuente---*/
+
+        $font-italic: italic;
+
 
 
