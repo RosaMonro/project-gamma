@@ -41,15 +41,15 @@ export default function Styleguide () {
             </div>
 
             <div class="sg__typo--paragraph">
-                <p  class="font-size-l">Soy un párrafo - Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+                <p class="font-size-24-s">Soy un párrafo - Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
                     Dolores, impedit iusto cumque itaque voluptates nesciunt, debitis odit 
                     molestias ex quae eveniet voluptatem? Doloremque incidunt provident 
                     explicabo ea est illum debitis!</p>
-                    <p  class="font-size-m">Soy un párrafo - Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+                <p class="font-size-20-xs">Soy un párrafo - Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
                     Dolores, impedit iusto cumque itaque voluptates nesciunt, debitis odit 
                     molestias ex quae eveniet voluptatem? Doloremque incidunt provident 
                     explicabo ea est illum debitis!</p>
-                    <p  class="font-size-sm">Soy un párrafo - Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+                <p class="font-size-16-xxs">Soy un párrafo - Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
                     Dolores, impedit iusto cumque itaque voluptates nesciunt, debitis odit 
                     molestias ex quae eveniet voluptatem? Doloremque incidunt provident 
                     explicabo ea est illum debitis!</p>

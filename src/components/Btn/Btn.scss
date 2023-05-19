@@ -1,17 +1,25 @@
 @import '../../scss/_variables.scss';
+@import '../../scss/mixins';
+
 
 .btn{
-    width: 260px;
-    height: 65px;
-    max-width: 275px;
+    width: 26rem;
+    height: 6.5rem;
+    max-width: 27.5rem;
+    margin: 1rem 2.4rem 1rem 2.4rem;
+
     font-family: $font-primary;
-    font-size: $font-size-m;
+    font-size: $font-size-xs; //20px
     font-weight: $font-weight-semibold;
+
     border: none;
     text-align: center;
     text-decoration: none;
     cursor: pointer;
-    margin: 50px 24px 50px 24px;
+
+    @include mq ($bp-small-desktop) { //1024px
+        font-size: $font-size-s; //24px
+    }
 
     &--primary {
         background-color: $color-white;
@@ -23,7 +31,6 @@
 
         &:hover {
             border: 2px $color-fucsia solid;
-            // border-bottom: 5px $color-fucsia solid;
         }
     }
 
@@ -52,14 +59,21 @@
 }
 
 .link {
-    margin: 50px 60px 50px 60px;
     display: inline-block;
-    padding: 24px;
+
+    margin: 1rem 2.4rem 1rem 2.4rem;
+    padding: 2.4rem;
+
     font-family: $font-primary;
-    font-size: $font-size-m;
+    font-size: $font-size-xs;
     font-weight: $font-weight-bold;
+
     text-decoration: none;
     cursor: pointer;
+
+    @include mq ($bp-small-desktop) { //1024px
+        font-size: $font-size-s; //24px
+    }
 
     &--primary {
         color: $color-fucsia;
@@ -90,5 +104,4 @@
     }
 }
 
-//los botones no heredan tipografía de body. Hay q poner 
-//la font-family
+//los botones no heredan tipografía de body. Hay q poner la font-family

@@ -30,15 +30,15 @@
         /*-----mapa de colores para colors y bg-colors---*/
 
         $colors: (
-                "fucsia": $color-fucsia,
-                "fucsia-darken": $color-fucsia-darken,
-                "fucsia-lighten": $color-fucsia-lighten,
-                "black": $color-black,
-                "black-lighten": $color-black-lighten,
-                "grey": $color-grey,
-                "grey-lighten": $color-grey-lighten,
-                "white-darken": $color-white-darken,
-                "white": $color-white
+                "fucsia":           $color-fucsia,
+                "fucsia-darken":    $color-fucsia-darken,
+                "fucsia-lighten":   $color-fucsia-lighten,
+                "black":            $color-black,
+                "black-lighten":    $color-black-lighten,
+                "grey":             $color-grey,
+                "grey-lighten":     $color-grey-lighten,
+                "white-darken":     $color-white-darken,
+                "white":            $color-white
         );
 
         @each $color, $i in $colors {
@@ -60,26 +60,22 @@
 
         /*----tamaños de fuente----*/
 
-        $font-size-xxs: 1.4rem; // 14px
-        $font-size-xs:  1.6rem; // 16px
-        $font-size-s:   1.8rem; // 18px
-        $font-size-sm:  2.0rem; // 20px
-        $font-size-m:   2.4rem; // 24px
-        $font-size-lm:  3.2rem; // 32px
-        $font-size-l:   3.6rem; // 36px
+        $font-size-xxs: 1.6rem; // 16px
+        $font-size-xs:  2.0rem; // 20px
+        $font-size-s:   2.4rem; // 24px
+        $font-size-m:   3.6rem; // 36px
+        $font-size-l:   4.8rem; // 48px
         $font-size-xl:  6.4rem; // 64px
         $font-size-xxl: 9.6rem; // 96px
 
         $sizes: (
-                "size-xxs": $font-size-xxs,
-                "size-xs": $font-size-xs,
-                "size-s": $font-size-s,
-                "size-sm": $font-size-sm,
-                "size-m": $font-size-m,
-                "size-lm": $font-size-lm,
-                "size-l": $font-size-l,
-                "size-xl": $font-size-xl,
-                "size-xxl": $font-size-xxl,
+                "size-16-xxs":  $font-size-xxs,
+                "size-20-xs":   $font-size-xs,
+                "size-24-s":    $font-size-s,
+                "size-36-m":    $font-size-m,
+                "size-48-l":    $font-size-l,
+                "size-64-xl":   $font-size-xl,
+                "size-96-xxl":  $font-size-xxl,
         );
 
         @each $size, $i in $sizes {
@@ -96,10 +92,10 @@
         $font-weight-light:    300;
 
         $weights: (
-                "weight-bold": $font-weight-bold,
-                "weight-semibold": $font-weight-semibold,
-                "weight-medium": $font-weight-medium,
-                "weight-ligh": $font-weight-light,
+                "weight-bold":      $font-weight-bold,
+                "weight-semibold":  $font-weight-semibold,
+                "weight-medium":    $font-weight-medium,
+                "weight-ligh":      $font-weight-light,
         );
 
         @each $weight, $i in $weights {
@@ -108,7 +104,7 @@
                 }      
         }
 
-        /*---stylos de fuente---*/
+        /*---estilo de fuente---*/
 
         $font-style-italic: italic;
 

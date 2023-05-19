@@ -1,43 +1,75 @@
 @import '../scss/variables';
 
-
-
 h1, 
 .h1 {
-    font-size: $font-size-xxl;
+    font-size: $font-size-l;
+
+    @include mq ($bp-small-desktop) {
+        font-size: $font-size-xxl;
+    }
 }
 
 h2, 
 .h2 {
-    font-size: $font-size-xl;
+    font-size: $font-size-m;
+
+    @include mq ($bp-small-desktop) {
+        font-size: $font-size-xl;
+    }
 }
 
 h3, 
 .h3 {
-    font-size: $font-size-l;
+    font-size: $font-size-s;
+
+    @include mq ($bp-small-desktop) {
+        font-size: $font-size-l;
+    }
 }
 
 h4, 
 .h4 {
-    font-size: $font-size-m;
+    font-size: $font-size-s;
+
+    @include mq ($bp-small-desktop) {
+        font-size: $font-size-m;
+    }
 }
 
 h5, 
 .h5 {
-    font-size: $font-size-sm;
+    font-size: $font-size-xxs;
+
+    @include mq ($bp-small-desktop) {
+        font-size: $font-size-s;
+    }
 }
 
 h6, 
 .h6 {
-    font-size: $font-size-xs;
+    font-size: $font-size-xxs;
+
+    @include mq ($bp-small-desktop) {
+        font-size: $font-size-xs;
+    }
 }
 
+/*---parrafos---*/
 
-p {
-    font-size: $font-size-sm;
-    font-weight: $font-weight-medium;
+p.font-size-24-s {
+    @include mq ($bp-small-desktop) {
+        font-size: $font-size-m;
+    }
 }
 
+p.font-size-20-xs {
+    @include mq ($bp-small-desktop) {
+        font-size: $font-size-s;
+    }
+}
 
-//hr para las líneas
-// falta definir tamaños para los parrafos según lo qu etengo en el figma
+p.font-size-16-xxs {
+    @include mq ($bp-small-desktop) {
+        font-size: $font-size-xs;
+    }
+}
