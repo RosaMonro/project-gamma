@@ -14,7 +14,7 @@ function App() {
           <Route path="/styleguide" element={<Styleguide />} />
         </Routes>
 
-      <header className="header  header-gradient">
+      <header className="header  header-bg">
 
         <div className="header__container">
 
