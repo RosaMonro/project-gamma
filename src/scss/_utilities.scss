@@ -24,8 +24,8 @@
             }
 
             @include mq ($bp-desktop) { //1440px
-                left: 6rem;
                 height: .18rem;
+                left: 6rem;
             }
         }
 
@@ -34,18 +34,22 @@
         width: 70%;
 
         @include mq ($bp-small-tablet) { //576px
+            height: .11rem;
             top: 4rem;
         }
 
         @include mq ($bp-tablet) { //768px
+            height: .13rem;
             top: 5rem;
         }
 
         @include mq ($bp-small-desktop) { //1024px
+            height: .15rem;
             top: 5rem;
         }
 
         @include mq ($bp-desktop) { //1440px
+            height: .18rem;
             top: 6rem;
         }
     }
