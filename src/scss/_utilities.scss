@@ -1,3 +1,78 @@
+/*----Líneas encabezado----*/
+
+    .header::before,
+    .header::after {
+        content: "";
+        position: absolute;
+        left: 3.6rem;
+        height: .1rem;
+        background-color: $color-white-darken;
+
+            @include mq ($bp-small-tablet) { //576px
+                left: 4rem;
+                height: .11rem;
+            }
+
+            @include mq ($bp-tablet) { //768px
+                height: .13rem;
+                left: 4.5rem;
+            }
+
+            @include mq ($bp-small-desktop) { //1024px
+                height: .15rem;
+                left: 5rem;
+            }
+
+            @include mq ($bp-desktop) { //1440px
+                left: 6rem;
+                height: .18rem;
+            }
+        }
+
+    .header::before {
+        top: 3rem;
+        width: 70%;
+
+        @include mq ($bp-small-tablet) { //576px
+            top: 4rem;
+        }
+
+        @include mq ($bp-tablet) { //768px
+            top: 5rem;
+        }
+
+        @include mq ($bp-small-desktop) { //1024px
+            top: 5rem;
+        }
+
+        @include mq ($bp-desktop) { //1440px
+            top: 6rem;
+        }
+    }
+
+    .header::after {
+        top: 5.5rem;
+        width: 50%; 
+
+        @include mq ($bp-small-tablet) { //576px
+            top: 7rem;
+        }
+
+        @include mq ($bp-tablet) { //768px
+            top: 8rem;
+        }
+
+        @include mq ($bp-small-desktop) { //1024px
+            top: 9rem;
+        }
+
+        @include mq ($bp-desktop) { //1440px
+            top: 10rem;
+        }
+    }
+
+
+
 // //Clases de COLOR ESCALA DE FUCSIAS (color y bg-color)
 
 //     .color-fucsia {

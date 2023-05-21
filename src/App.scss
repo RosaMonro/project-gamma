@@ -1,8 +1,8 @@
-@import './scss/variables.scss';
 @import './scss/typography.scss';
 
 
 .header {
+    position: relative;
 
     &-gradient {
         display: flex;
@@ -12,9 +12,9 @@
 
         height: 100vh;
         background-color: $color-black;
-        background-image: linear-gradient(45deg, $color-black 35%, $color-fucsia-darken 83%, $color-fucsia 98%);
+        background-image: linear-gradient(30deg, $color-black 21%, $color-fucsia-darken 75%, $color-fucsia 95%);
         
-        
+
         @include mq ($bp-small-tablet) {
             justify-content: flex-end;
             align-items: flex-end;
@@ -26,24 +26,24 @@
         color: $color-white;
         margin-bottom: sp(s);
 
-        @include mq ($bp-small-tablet) {
+        @include mq ($bp-small-tablet) { //576px
             margin-right: sp(s);
             margin-bottom: sp(s);
         }
     
-        @include mq ($bp-tablet) {
+        @include mq ($bp-tablet) { //768px
+            margin-right: sp(m);
+            margin-bottom: sp(m);
+        }
+    
+        @include mq ($bp-small-desktop) { //1024px
             margin-right: sp(l);
             margin-bottom: sp(l);
         }
     
-        @include mq ($bp-small-desktop) {
+        @include mq ($bp-desktop) { //1440px
             margin-right: sp(xl);
-            margin-bottom: sp(xl);
-        }
-    
-        @include mq ($bp-desktop) {
-            margin-right: sp(xl);
-            margin-bottom: sp(xl);
+            margin-bottom: sp(l);
         }
     }
 

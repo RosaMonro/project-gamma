@@ -14,15 +14,13 @@ function App() {
           <Route path="/styleguide" element={<Styleguide />} />
         </Routes>
 
-      <header className="header-gradient">
-
-        <span className="headr__line"></span>
+      <header className="header  header-gradient">
 
         <div className="header__container">
 
             <div className="header__info">
                 <p className="h1  font-weight-bold  font-style-italic">Rosa Montero</p>
-                <h1 className="font-weight-light  font-style-italic">Frontend-UI</h1>
+                <h1 className="font-weight-light  font-style-italic">Frontend</h1>
             </div>
 
             <div className="header__button">
@@ -31,7 +29,7 @@ function App() {
             </div>
 
             <div className="header__cta">
-              <p className="font-weght-light  font-size-24-s">¡Puedes leer más <span className="color-fucsia">sobre mí</span> ! </p>
+              <p className="font-weight-light  font-size-24-s">¡Puedes leer más <span className="color-fucsia font-weight-light font-style-italic">sobre mí</span> ! </p>
             </div>
 
         </div>
