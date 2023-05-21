@@ -29,7 +29,7 @@ function App() {
             </div>
 
             <div className="header__cta">
-              <p className="font-weight-light  font-size-24-s">¡Puedes leer más <span className="color-fucsia font-weight-light font-style-italic">sobre mí</span> ! </p>
+              <p className="font-weight-light  font-size-24-s">¡Puedes leer más <a className="header__link  link  link--primary  color-fucsia font-weight-light font-style-italic">sobre mí</a>! </p>
             </div>
 
         </div>

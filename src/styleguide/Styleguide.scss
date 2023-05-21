@@ -2,6 +2,10 @@
 
 // http://localhost:5174/styleguide
 
+.sg__body {
+    background-color: $color-grey-lighten;
+}
+
 // paleta de colores
 
 .sg {
@@ -74,14 +78,17 @@
         
     }
 
-    // tipografía
+// tipografía
 
     &__typo {
         text-align: center;
 
         &--headers,
         &--paragraph {
-            margin: 0 150px;
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            margin: 50px 150px;
             text-align: left;
             color: $color-black-lighten
         }

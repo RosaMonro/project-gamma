@@ -6,6 +6,8 @@ import './Styleguide.scss';
 export default function Styleguide () {
     return <>
 
+    <body className="sg__body">
+            
         <Nav />
 
         <section className="sg__color-palette">
@@ -66,6 +68,7 @@ export default function Styleguide () {
                 </div>
 
         </section>
+    </body>
 
     </>
 }

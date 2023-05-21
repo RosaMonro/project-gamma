@@ -9,9 +9,9 @@ export default function Button () {
         </div>
 
         <div className="sg__btn">
-            <a className="link  link--primary" href="">Soy un enlace</a>
-            <a className="link  link--secondary" href="">Soy un enlace</a>
-            <a className="link  link--cta" href="">Soy un enlace</a>
+            <a className="sg__link  link--primary" href="">Soy un enlace</a>
+            <a className="sg__link  link--secondary" href="">Soy un enlace</a>
+            <a className="sg__link  link--cta" href="">Soy un enlace</a>
         </div>
     </>
 }
