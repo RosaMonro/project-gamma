@@ -1,10 +1,17 @@
 @import '../scss/variables';
+@import '../scss/mixins.scss';
 
 h1, 
 .h1 {
     font-size: $font-size-l;
+    margin: 0;
+
 
     @include mq ($bp-small-desktop) {
+        font-size: $font-size-xl;
+    }
+
+    @include mq ($bp-desktop) {
         font-size: $font-size-xxl;
     }
 }
@@ -12,8 +19,9 @@ h1,
 h2, 
 .h2 {
     font-size: $font-size-m;
+    margin: 0;
 
-    @include mq ($bp-small-desktop) {
+    @include mq ($bp-desktop) {
         font-size: $font-size-xl;
     }
 }
@@ -21,8 +29,9 @@ h2,
 h3, 
 .h3 {
     font-size: $font-size-s;
+    margin: 0;
 
-    @include mq ($bp-small-desktop) {
+    @include mq ($bp-desktop) {
         font-size: $font-size-l;
     }
 }
@@ -30,8 +39,9 @@ h3,
 h4, 
 .h4 {
     font-size: $font-size-s;
+    margin: 0;
 
-    @include mq ($bp-small-desktop) {
+    @include mq ($bp-desktop) {
         font-size: $font-size-m;
     }
 }
@@ -39,8 +49,9 @@ h4,
 h5, 
 .h5 {
     font-size: $font-size-xxs;
+    margin: 0;
 
-    @include mq ($bp-small-desktop) {
+    @include mq ($bp-desktop) {
         font-size: $font-size-s;
     }
 }
@@ -48,8 +59,9 @@ h5,
 h6, 
 .h6 {
     font-size: $font-size-xxs;
+    margin: 0;
 
-    @include mq ($bp-small-desktop) {
+    @include mq ($bp-desktop) {
         font-size: $font-size-xs;
     }
 }
@@ -57,19 +69,25 @@ h6,
 /*---parrafos---*/
 
 p.font-size-24-s {
-    @include mq ($bp-small-desktop) {
+    margin: 0;
+
+    @include mq ($bp-desktop) {
         font-size: $font-size-m;
     }
 }
 
 p.font-size-20-xs {
-    @include mq ($bp-small-desktop) {
+    margin: 0;
+
+    @include mq ($bp-desktop) {
         font-size: $font-size-s;
     }
 }
 
 p.font-size-16-xxs {
-    @include mq ($bp-small-desktop) {
+    margin: 0;
+
+    @include mq ($bp-desktop) {
         font-size: $font-size-xs;
     }
 }

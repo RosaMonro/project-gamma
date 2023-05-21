@@ -1,18 +1,25 @@
 @import '../../scss/_variables.scss';
 @import '../../scss/mixins';
 
-.sg__btn {
+.sg__buttons {
     text-align: center;
 }
 
+.sg__btn {
+    display: flex;
+    justify-content: center;
+    gap: 48px
+}
+
 .btn{
-    width: 26rem;
-    height: 6.5rem;
-    max-width: 27.5rem;
-    margin: 1rem 2.4rem 1rem 2.4rem;
+
+    width: 15rem;
+    height: 4rem;
+    max-width: 15rem;
+    margin: sp(s) 0;
 
     font-family: $font-primary;
-    font-size: $font-size-xs; //20px
+    font-size: $font-size-xxs; //16px
     font-weight: $font-weight-semibold;
 
     border: none;
@@ -21,7 +28,20 @@
     cursor: pointer;
 
     @include mq ($bp-small-desktop) { //1024px
-        font-size: $font-size-s; //24px
+        width: 18rem;
+        height: 5.5rem;
+        max-width: 27.5rem;
+        margin: sp(s) 0;
+
+        font-size: $font-size-xxs; //16px
+    }
+
+    @include mq ($bp-desktop) { //1440px
+        width: 24rem;
+        height: 6.5rem;
+        max-width: 27.5rem;
+
+        font-size: $font-size-xs; //20px
     }
 
     &--primary {
@@ -40,10 +60,10 @@
     &--secondary {
         background-color: $color-white;
         color: $color-black;
-        border: 2px $color-fucsia solid;
+        border: 2px $color-white solid;
 
         &:hover {
-            border: 2px $color-fucsia solid;
+            border: 2px $color-white solid;
             background-color: $color-fucsia;
             color: $color-white;
         }

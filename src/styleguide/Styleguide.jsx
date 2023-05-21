@@ -12,18 +12,18 @@ export default function Styleguide () {
             <h1 className="h2">Paleta de colores</h1>
 
             <div className="sg__box-1">
-                <div className="sg__color-box color-fucsia-darken"></div>
-                <div className="sg__color-box color-fucsia"></div>
-                <div className="sg__color-box color-fucsia-lighten"></div>
+                <div className="sg__color-box sg__color-fucsia-darken"></div>
+                <div className="sg__color-box sg__color-fucsia"></div>
+                <div className="sg__color-box sg__color-fucsia-lighten"></div>
             </div>
 
             <div className="sg__box-2">
-                <div className="sg__color-box color-black"></div>
-                <div className="sg__color-box color-black-lighten"></div>
-                <div className="sg__color-box color-grey"></div>
-                <div className="sg__color-box color-grey-lighten"></div>
-                <div className="sg__color-box color-white-darken"></div>
-                <div className="sg__color-box color-white"></div>
+                <div className="sg__color-box sg__color-black"></div>
+                <div className="sg__color-box sg__color-black-lighten"></div>
+                <div className="sg__color-box sg__color-grey"></div>
+                <div className="sg__color-box sg__color-grey-lighten"></div>
+                <div className="sg__color-box sg__color-white-darken"></div>
+                <div className="sg__color-box sg__color-white"></div>
             </div>
         </section>
 
@@ -57,7 +57,7 @@ export default function Styleguide () {
 
         </section>
 
-        <section  class="sg__btn">
+        <section  class="sg__buttons">
 
                 <h1 className="h2">Botones y enlaces</h1>
 

@@ -24,67 +24,66 @@
     width: 100px;
     height: 100px;
     }
-}
 
-.color {
+    &__color {
 
-    &-fucsia-darken {
-        background-color: $color-fucsia-darken;
-        border: 1px $color-black solid;
-    }
-
-    &-fucsia {
-        background-color: $color-fucsia;
-        border: 1px $color-black solid;
-    }
-
-    &-fucsia-lighten {
-        background-color: $color-fucsia-lighten;
-        border: 1px $color-black solid;
-    }
-
-    &-black {
-        background-color: $color-black;
-        border: 1px $color-black solid;
-    }
-
-    &-black-lighten {
-        background-color: $color-black-lighten;
-        border: 1px $color-black solid;
-    }
-
-    &-grey {
-        background-color: $color-grey;
-        border: 1px $color-black solid;
-    }
-
-    &-grey-lighten {
-        background-color: $color-grey-lighten;
-        border: 1px $color-black solid;
-    }
-
-    &-white-darken {
-        background-color: $color-white-darken;
-        border: 1px $color-black solid;
-    }
-
-    &-white {
-        background-color: $color-white;
-        border: 1px $color-black solid;
-    }
+        &-fucsia-darken {
+            background-color: $color-fucsia-darken;
+            border: 1px $color-black solid;
+        }
     
-}
+        &-fucsia {
+            background-color: $color-fucsia;
+            border: 1px $color-black solid;
+        }
+    
+        &-fucsia-lighten {
+            background-color: $color-fucsia-lighten;
+            border: 1px $color-black solid;
+        }
+    
+        &-black {
+            background-color: $color-black;
+            border: 1px $color-black solid;
+        }
+    
+        &-black-lighten {
+            background-color: $color-black-lighten;
+            border: 1px $color-black solid;
+        }
+    
+        &-grey {
+            background-color: $color-grey;
+            border: 1px $color-black solid;
+        }
+    
+        &-grey-lighten {
+            background-color: $color-grey-lighten;
+            border: 1px $color-black solid;
+        }
+    
+        &-white-darken {
+            background-color: $color-white-darken;
+            border: 1px $color-black solid;
+        }
+    
+        &-white {
+            background-color: $color-white;
+            border: 1px $color-black solid;
+        }
+        
+    }
 
+    // tipografía
 
-// tipografía
+    &__typo {
+        text-align: center;
 
-.sg__typo {
-    text-align: center;
-
-    &--headers,
-    &--paragraph {
-        margin: 0 150px;
-        text-align: left;
-        color: $color-black-lighten
+        &--headers,
+        &--paragraph {
+            margin: 0 150px;
+            text-align: left;
+            color: $color-black-lighten
+        }
     }
 }

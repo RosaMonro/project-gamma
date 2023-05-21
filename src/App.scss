@@ -1,8 +1,57 @@
 @import './scss/variables.scss';
+@import './scss/typography.scss';
 
 
-#root {
+.header {
 
+    &-gradient {
+        display: flex;
+        justify-content: center;
+        align-items: end;
+        text-align: center;
+
+        height: 100vh;
+        background-color: $color-black;
+        background-image: linear-gradient(45deg, $color-black 35%, $color-fucsia-darken 83%, $color-fucsia 98%);
+        
+        
+        @include mq ($bp-small-tablet) {
+            justify-content: flex-end;
+            align-items: flex-end;
+            text-align: end;
+        }
+    }
+
+    &__container {
+        color: $color-white;
+        margin-bottom: sp(s);
+
+        @include mq ($bp-small-tablet) {
+            margin-right: sp(s);
+            margin-bottom: sp(s);
+        }
+    
+        @include mq ($bp-tablet) {
+            margin-right: sp(l);
+            margin-bottom: sp(l);
+        }
+    
+        @include mq ($bp-small-desktop) {
+            margin-right: sp(xl);
+            margin-bottom: sp(xl);
+        }
+    
+        @include mq ($bp-desktop) {
+            margin-right: sp(xl);
+            margin-bottom: sp(xl);
+        }
+    }
+
+    &__button {
+        display: flex;
+        justify-content: end;
+        gap: 1.2rem;
+    }
 }
 
 

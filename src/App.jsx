@@ -1,8 +1,7 @@
-import { Link, Route, Routes } from 'react-router-dom'
+import { Route, Routes } from 'react-router-dom'
 import './App.scss'
 import './scss/global.scss'
-import Home from './views/Home'
-import Contact from './views/Contact'
+
 import Styleguide from './styleguide/Styleguide'
 
 
@@ -11,21 +10,36 @@ function App() {
 
   return (
     <>
-      <header>
-        <h1 className="h1">Proyecto Gamma</h1>
-        <div className="header__nav">
-          <Link to="/Contact" className="header__nav__link">Contacto</Link>
-          <Link to="/" className="header__nav__link">Home</Link>
-          <Link to="/styleguide" className="header__nav__link">Styleguide</Link>
-        </div>
-      </header>
-      
-      <main>
         <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/Contact" element={<Contact />} />
           <Route path="/styleguide" element={<Styleguide />} />
         </Routes>
+
+      <header className="header-gradient">
+
+        <span className="headr__line"></span>
+
+        <div className="header__container">
+
+            <div className="header__info">
+                <p className="h1  font-weight-bold  font-style-italic">Rosa Montero</p>
+                <h1 className="font-weight-light  font-style-italic">Frontend-UI</h1>
+            </div>
+
+            <div className="header__button">
+                <button className="btn  btn--secondary">CONTÁCTAME</button>
+                <button className="btn  btn--cta">MI TRABAJO</button>
+            </div>
+
+            <div className="header__cta">
+              <p className="font-weght-light  font-size-24-s">¡Puedes leer más <span className="color-fucsia">sobre mí</span> ! </p>
+            </div>
+
+        </div>
+
+      </header>
+
+      <main>
+        
       </main>
     </>
   )
