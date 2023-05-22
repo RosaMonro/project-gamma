@@ -3,10 +3,13 @@ import './App.scss'
 import './scss/global.scss'
 
 import Styleguide from './styleguide/Styleguide'
+import MyButton from './components/Btn/Btn'
 
 
 
 function App() {
+
+const text="CONTÁCTAME"
 
   return (
     <>
@@ -24,9 +27,11 @@ function App() {
             </div>
 
             <div className="header__button">
-                <button className="btn  btn--secondary">CONTÁCTAME</button>
-                <button className="btn  btn--cta">MI TRABAJO</button>
+                <MyButton variant="secondary" text="CONTÁCTAME" isButton="true"></MyButton>
+                <MyButton  variant="cta" text="MI TRABAJO" isButton="true"></MyButton>
             </div>
+
+           
 
             <div className="header__cta">
               <p className="font-weight-light  font-size-24-s">¡Puedes leer más <a className="header__link  link  link--primary  color-fucsia font-weight-light font-style-italic">sobre mí</a>! </p>

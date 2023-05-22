@@ -1,4 +1,4 @@
-import Button from '../components/Btn/Btn';
+import MyButton from '../components/Btn/Btn';
 import Nav from './Nav/Nav';
 
 import './Styleguide.scss';
@@ -42,16 +42,16 @@ export default function Styleguide () {
                 <h6>H6 - Soy un encabezado</h6>
             </div>
 
-            <div class="sg__typo--paragraph">
-                <p class="font-size-24-s">Soy un párrafo - Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+            <div className="sg__typo--paragraph">
+                <p className="font-size-24-s">Soy un párrafo - Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
                     Dolores, impedit iusto cumque itaque voluptates nesciunt, debitis odit 
                     molestias ex quae eveniet voluptatem? Doloremque incidunt provident 
                     explicabo ea est illum debitis!</p>
-                <p class="font-size-20-xs">Soy un párrafo - Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+                <p className="font-size-20-xs">Soy un párrafo - Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
                     Dolores, impedit iusto cumque itaque voluptates nesciunt, debitis odit 
                     molestias ex quae eveniet voluptatem? Doloremque incidunt provident 
                     explicabo ea est illum debitis!</p>
-                <p class="font-size-16-xxs">Soy un párrafo - Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+                <p className="font-size-16-xxs">Soy un párrafo - Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
                     Dolores, impedit iusto cumque itaque voluptates nesciunt, debitis odit 
                     molestias ex quae eveniet voluptatem? Doloremque incidunt provident 
                     explicabo ea est illum debitis!</p>
@@ -59,15 +59,28 @@ export default function Styleguide () {
 
         </section>
 
-        <section  class="sg__buttons">
+        <section  className="sg__buttons">
 
                 <h1 className="h2">Botones y enlaces</h1>
 
-                <div className="sg__button">
-                    <Button />
+                <div className="sg__btns">
+
+                    <MyButton variant="primary" text="Botón" isButton="true"></MyButton>
+                    <MyButton variant="secondary" text="Botón" isButton="true"></MyButton>
+                    <MyButton variant="cta" text="Botón" isButton="true"></MyButton>
+
+                </div>
+
+                <div className="sg__links">
+
+                    <MyButton variant="primary" text="Soy un enlace" isButton="false"></MyButton>
+                    <MyButton variant="secondary" text="Soy un enlace" isButton="false"></MyButton>
+                    <MyButton variant="cta" text="Soy un enlace" isButton="false"></MyButton>
+                
                 </div>
 
         </section>
+
     </body>
 
     </>
