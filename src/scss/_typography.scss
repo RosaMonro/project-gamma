@@ -71,7 +71,7 @@ h6,
 p.font-size-24-s {
     margin: 0;
 
-    @include mq ($bp-desktop) {
+    @include mq ($bp-small-desktop) { //1024px
         font-size: $font-size-m;
     }
 }
@@ -79,7 +79,7 @@ p.font-size-24-s {
 p.font-size-20-xs {
     margin: 0;
 
-    @include mq ($bp-desktop) {
+    @include mq ($bp-small-desktop) { //1024px
         font-size: $font-size-s;
     }
 }
@@ -87,7 +87,7 @@ p.font-size-20-xs {
 p.font-size-16-xxs {
     margin: 0;
 
-    @include mq ($bp-desktop) {
+    @include mq ($bp-small-desktop) { //1024px
         font-size: $font-size-xs;
     }
 }

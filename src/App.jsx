@@ -1,15 +1,12 @@
 import { Route, Routes } from 'react-router-dom'
 import './App.scss'
 import './scss/global.scss'
-
 import Styleguide from './styleguide/Styleguide'
 import MyButton from './components/Btn/Btn'
 
 
 
 function App() {
-
-const text="CONTÁCTAME"
 
   return (
     <>
@@ -31,10 +28,8 @@ const text="CONTÁCTAME"
                 <MyButton  variant="cta" text="MI TRABAJO" isButton="true"></MyButton>
             </div>
 
-           
-
             <div className="header__cta">
-              <p className="font-weight-light  font-size-24-s">¡Puedes leer más <a className="header__link  link  link--primary  color-fucsia font-weight-light font-style-italic">sobre mí</a>! </p>
+              <p className="font-weight-light  font-size-20-xs">¡Puedes leer más <MyButton  variant="secondary" text="sobre mí" isButton="false"></MyButton>!</p>
             </div>
 
         </div>
