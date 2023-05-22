@@ -9,7 +9,10 @@
 .sg__links {
     display: flex;
     justify-content: center;
-    gap: 48px
+    gap: 48px;
+    
+    margin: 1rem 2.4rem 1rem 2.4rem;
+    padding: 2.4rem;
 }
 
 .btn{
@@ -86,9 +89,6 @@
 .link {
     display: inline-block;
 
-    margin: 1rem 2.4rem 1rem 2.4rem;
-    padding: 2.4rem;
-
     font-family: $font-primary;
     font-size: $font-size-xs;
     font-weight: $font-weight-bold;
@@ -130,4 +130,4 @@
     }
 }
 
-//los botones no heredan tipografía de body. Hay q poner la font-family
+/* los botones no heredan tipografía de body. Hay q poner la font-family */
