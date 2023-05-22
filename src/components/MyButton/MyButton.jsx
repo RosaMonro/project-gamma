@@ -1,5 +1,5 @@
 
-import './Btn.scss'
+import './MyButton.scss'
 
 export default function MyButton (props) {
     if (props.isButton == 'true') {

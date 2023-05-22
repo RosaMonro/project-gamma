@@ -2,7 +2,7 @@ import { Route, Routes } from 'react-router-dom'
 import './App.scss'
 import './scss/global.scss'
 import Styleguide from './styleguide/Styleguide'
-import MyButton from './components/Btn/Btn'
+import MyButton from './components/MyButton/MyButton'
 
 
 

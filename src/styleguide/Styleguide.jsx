@@ -1,4 +1,4 @@
-import MyButton from '../components/Btn/Btn';
+import MyButton from '../components/MyButton/MyButton';
 import Nav from './Nav/Nav';
 
 import './Styleguide.scss';
