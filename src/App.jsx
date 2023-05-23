@@ -3,6 +3,7 @@ import './App.scss'
 import './scss/global.scss'
 import Styleguide from './styleguide/Styleguide'
 import { CardHeader } from './components/CardHeader/CardHeader'
+import { AboutMe } from './components/AboutMe/AboutMe'
 
 
 
@@ -14,7 +15,13 @@ function App() {
           <Route path="/styleguide" element={<Styleguide />} />
         </Routes>
 
-        <CardHeader name='Rosa Montero'  role='Frontend'></CardHeader>
+        <header className="header  header-bg">
+          <CardHeader name='Rosa Montero'  role='Frontend'></CardHeader>
+        </header>
+
+        <main>
+          <AboutMe></AboutMe>
+        </main>
 
     </>
   )

@@ -1,16 +1,44 @@
 import MyButton from '../MyButton/MyButton'
 import './CardHeader.scss'
 
+import React, { useEffect, useState } from 'react';
+
+
 export function CardHeader(props) {
+    const [typedText, setTypedText] = useState('');
+  const targetText = 'Frontend-UI';
+
+  useEffect(() => {
+    const delay = 200; // Delay entre cada letra (en milisegundos)
+    const typeNextLetter = (index) => {
+      if (index <= targetText.length) {
+        setTypedText(targetText.slice(0, index));
+        setTimeout(() => {
+          typeNextLetter(index + 1);
+        }, delay);
+      } else {
+        setTimeout(() => {
+          setTypedText('');
+          typeNextLetter(1);
+        }, 2000); // Espera 2 segundos antes de reiniciar la animación
+      }
+    };
+
+    typeNextLetter(1);
+
+    return () => {
+      clearTimeout();
+    };
+  }, []);
+
 
     return (
-        <header className="header  header-bg">
 
         <div className="header__container">
 
             <div className="header__info">
                 <p className="h1  font-weight-bold  font-style-italic">{props.name}</p>
-                <h1 className="font-weight-light  font-style-italic">{props.role}</h1>
+                <h1 className="font-weight-light  font-style-italic">{typedText}</h1>
             </div>
 
             <div className="header__button">
@@ -24,6 +52,5 @@ export function CardHeader(props) {
 
         </div>
 
-      </header>
     )
 }
