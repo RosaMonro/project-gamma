@@ -6,25 +6,25 @@ import React, { useEffect, useState } from 'react';
 
 export function CardHeader(props) {
     const [typedText, setTypedText] = useState('');
-  const targetText = 'Frontend-UI';
+    const targetText = 'Frontend-UI';
 
   useEffect(() => {
     const delay = 200; // Delay entre cada letra (en milisegundos)
     const typeNextLetter = (index) => {
-      if (index <= targetText.length) {
-        setTypedText(targetText.slice(0, index));
-        setTimeout(() => {
+      if (index <= targetText.length) {  // verificamos si el índice actual es < o = a la longitud de targetText
+        setTypedText(targetText.slice(0, index)); // Si el índice es < o =, actualizamos el estado typedText
+        setTimeout(() => { // utilizamos setTimeout para llamar a la función typeNextLetter(index + 1) con un delay
           typeNextLetter(index + 1);
         }, delay);
       } else {
         setTimeout(() => {
-          setTypedText('');
-          typeNextLetter(1);
+          setTypedText(''); // restablecemos typedText a una cadena vacía
+          typeNextLetter(1); // llamamos a la función para reiniciar la animación
         }, 2000); // Espera 2 segundos antes de reiniciar la animación
       }
     };
 
-    typeNextLetter(1);
+    typeNextLetter(1); // Se encarga de escribir cada letra de targetText una por una.
 
     return () => {
       clearTimeout();
