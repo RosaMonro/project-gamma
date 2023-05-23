@@ -1,0 +1,41 @@
+@import '../../scss/_variables.scss';
+@import '../../scss/mixins';
+
+.main {
+    padding-left: sp(xxs);
+    padding-right: sp(xxs);
+    padding-top: sp(l);
+    padding-bottom: sp(l);
+
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+
+    @include mq ($bp-small-desktop) { //1024px
+        padding-left: sp(l);
+        padding-right: sp(l);
+        padding-top: sp(xl);
+        padding-bottom: sp(xl);
+    }
+
+    @include mq ($bp-desktop) { //1440px
+        padding-left: sp(l);
+        padding-right: sp(l);
+        padding-top: sp(xxl);
+        padding-bottom: sp(xxl);
+    }
+}
+.horizontal-line {
+    border: none;
+    border-top: 4px solid $color-fucsia; 
+    margin: 3em 30%; 
+
+    @include mq ($bp-small-tablet) { //576px
+        margin: 3em 35%; 
+    }
+
+    @include mq ($bp-tablet) { //768px
+        margin: 3em 40%; 
+    }
+  }
+  

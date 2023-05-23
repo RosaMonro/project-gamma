@@ -31,7 +31,11 @@ h3,
     font-size: $font-size-s;
     margin: 0;
 
-    @include mq ($bp-desktop) {
+    @include mq ($bp-small-tablet) { // 576px
+        font-size: $font-size-m;
+    }
+
+    @include mq ($bp-desktop) { //1440px
         font-size: $font-size-l;
     }
 }
