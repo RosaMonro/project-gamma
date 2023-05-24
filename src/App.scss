@@ -44,12 +44,12 @@
       }
 
     &__text {
-        display: flex;
-        flex-direction: column;
+        display:grid;
+        grid-template-rows: 1fr;
         gap: sp(s);
 
         @include mq ($bp-tablet) { //576px
-            flex-direction: row; 
+            grid-template-columns: 1fr 1fr;
         }
     }
 }
