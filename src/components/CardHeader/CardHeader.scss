@@ -2,12 +2,11 @@
 @import '../../scss/mixins';
 
 .header {
-    position: relative;
 
     &-bg {
         display: flex;
         justify-content: center;
-        align-items: end;
+        align-items: center;
         text-align: center;
 
         height: 100vh;
@@ -23,7 +22,7 @@
         }
     }
 
-    &__container {
+    &__container {       
         color: $color-white;
         margin-bottom: sp(l);
 
