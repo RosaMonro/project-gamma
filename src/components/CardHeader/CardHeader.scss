@@ -15,6 +15,9 @@
         background-attachment: fixed;
         background-size: cover;
 
+        // background-position: center;
+
+
         @include mq ($bp-small-tablet) {
             justify-content: flex-end;
             align-items: flex-end;

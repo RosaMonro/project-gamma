@@ -66,8 +66,4 @@
     @include mq ($bp-small-tablet) { //576px uno de los dos sobre
         padding: sp(xs); 
     }
-
-    @include mq ($bp-tablet) { //768px uno de los dos sobra
-        padding: sp(xs); 
-    }
 }
