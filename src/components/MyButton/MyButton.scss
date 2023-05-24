@@ -101,7 +101,7 @@
     }
 
     &--primary {
-        color: $color-fucsia;
+        color: $color-fucsia-darken;
         font-weight: $font-weight-semibold;
 
         &:hover {
@@ -110,7 +110,7 @@
     }
 
     &--secondary {
-        color: $color-fucsia;
+        color: $color-fucsia-darken;
         font-weight: $font-weight-light;
 
         &:hover {
