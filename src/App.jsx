@@ -46,11 +46,13 @@ function App() {
 
                 <div className="text-about">
                     <h4 className="h6  font-weight-light  color-fucsia">Aportando valor...</h4>
-                    <p className="font-size-16-xxs  font-weight-light">La psicología, así como 
-                    el diseño y desarrollo de interfaces requieren de habilidades tanto técnicas como 
-                    analíticas para saber interpretar patrones de conducta del usuario y 
-                    así poder implementarlas en el desarrollo de las mismas. Asimismo, es importante una meticulosa atención al detalle, entrenamiento en la resolución de 
-                    problemas y una sólida capacidad de comunicación efectiva para trabajar en equipo.</p>
+                    <p className="font-size-16-xxs  font-weight-light">Tanto la psicología como
+                    el diseño y desarrollo de interfaces requieren de habilidades técnicas y analíticas. 
+                    Saber percibir e interpretar patrones de conducta del usuario te permite 
+                    poder implementarlos en el desarrollo de las mismas. Asimismo, es importante 
+                    una meticulosa atención al detalle, entrenamiento en la resolución de 
+                    problemas y una sólida capacidad de comunicación efectiva para trabajar en equipo.
+                    </p>
                     
                     
                     <h4 className="h6  font-weight-light  color-fucsia">...y algo más.</h4>
