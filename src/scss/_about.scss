@@ -53,8 +53,13 @@
 }
 
 .contain-photo-bg {
-    background-image: url('../assets/img-about-desktop.jpg');
+    background-image: url('../../public/bg-movil_861.png');
     background-size: cover;
+    background-attachment: fixed;
+
+    @include mq ($bp-small-tablet) { //576px
+        background-image: url('../../public/bg-desktop_1400.jpg'); 
+    }
 }
 
 .text-about {
