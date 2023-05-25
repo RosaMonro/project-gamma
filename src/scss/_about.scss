@@ -1,5 +1,5 @@
 @import '../scss/typography';
-@import '../scss/_variables.scss';
+@import '../scss/variables';
 @import '../scss/mixins';
 
 .main {
@@ -24,23 +24,6 @@
         padding-bottom: sp(xxl);
     }
 
-    &__horizontal-line {
-        border: 2.3px solid $color-fucsia; 
-        margin: 3em 30%; 
-    
-        @include mq ($bp-small-tablet) { //576px
-            margin: 3em 35%; 
-        }
-    
-        @include mq ($bp-tablet) { //768px
-            margin: 3em 40%; 
-        }
-
-        @include mq ($bp-small-desktop) { //1024px
-            margin: 4em 40%; 
-        }
-      }
-
     &__text {
         display:grid;
         grid-template-rows: 1fr;
@@ -56,6 +39,7 @@
     background-image: url('../../public/bg-movil_861.png');
     background-size: cover;
     background-attachment: fixed;
+    background-position: center;
 
     @include mq ($bp-small-tablet) { //576px
         background-image: url('../../public/bg-desktop_1400.jpg'); 

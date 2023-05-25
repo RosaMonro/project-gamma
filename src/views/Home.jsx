@@ -15,7 +15,7 @@ export default function Home() {
 
               <h3 className="font-style-italic  font-weight-semibold">Quién soy y qué hago</h3>
 
-              <hr class="main__horizontal-line"></hr>
+              <hr className="horizontal-line--center"></hr>
 
               <div className="main__text">
 
@@ -59,6 +59,7 @@ export default function Home() {
           </section>
 
         </main>
+
         </>
     )
 }
