@@ -3,6 +3,8 @@
 
         /*----colores---*/
 
+        $color-selection:       #f9e998; // 5bb9a1
+
         $color-fucsia:          #F300B4;
         $color-fucsia-darken:   #DD00A1;
         $color-fucsia-lighten:  #FCECF7;
@@ -15,6 +17,8 @@
         $color-white:           #ffffff;
 
         /*----Variables de color para BG----*/
+
+        $background-color-color-selection:       #f9e998;
 
         $background-color-color-fucsia:          #F300B4;
         $background-color-color-fucsia-darken:   darken($background-color-color-fucsia, 30%);
@@ -38,7 +42,8 @@
                 "grey":             $color-grey,
                 "grey-lighten":     $color-grey-lighten,
                 "white-darken":     $color-white-darken,
-                "white":            $color-white
+                "white":            $color-white,
+                "selection":        $color-selection
         );
 
         @each $color, $i in $colors {

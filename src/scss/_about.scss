@@ -12,8 +12,6 @@
     flex-direction: column;
     text-align: center;
 
-    background-color: $color-white-darken;
-
     @include mq ($bp-small-desktop) { //1024px
         padding-left: sp(l);
         padding-right: sp(l);
@@ -54,14 +52,16 @@
     }
 }
 
-  
+.contain-photo-bg {
+    background-image: url('../assets/img-about-desktop.jpg');
+    background-size: cover;
+}
+
 .text-about {
     padding: sp(xxs);
 
     text-align: left;
     line-height: 2;
-
-    background-color: $color-white;
 
     @include mq ($bp-small-tablet) { //576px uno de los dos sobre
         padding: sp(xs); 

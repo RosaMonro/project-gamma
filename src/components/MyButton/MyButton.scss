@@ -50,7 +50,7 @@
     }
 
     &--primary {
-        background-color: $color-white;
+        background-color: $background-color-color-white;
         color: $color-black;
         border-bottom: 2px $color-fucsia solid;
         border-top: 2px $color-white solid;
@@ -63,7 +63,7 @@
     }
 
     &--secondary {
-        background-color: $color-white;
+        background-color: $background-color-color-white;
         color: $color-black;
         border: 2px $color-white-darken solid;
 
@@ -75,7 +75,7 @@
     }
 
     &--cta {
-        background-color: $color-fucsia;
+        background-color: $background-color-color-fucsia;
         color: $color-white;
 
         &:hover {
