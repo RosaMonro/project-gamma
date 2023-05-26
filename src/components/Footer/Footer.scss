@@ -52,6 +52,17 @@ footer {
             padding-top: sp(xs);
         }
     }
+
+    &__icons {
+        display: flex;
+        gap: sp(xxs);
+
+        padding-top: sp(xxs);
+
+        @include mq ($bp-tablet) { //768px
+            padding-top: sp(xs);
+        }
+    }
 }
 
 .thanks {

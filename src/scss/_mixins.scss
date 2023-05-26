@@ -15,12 +15,12 @@ $bp-small-tablet:       36rem; //576px
 /*-----TAMAÑOS ICONOS----*/
 
 $w-small:   3rem;
-$w-medium:  4rem;
-$w-large:   5rem;
+$w-medium:  3.5rem;
+$w-large:   4rem;
 
 $h-small:   3rem;
-$h-medium:  4rem;
-$h-large:   5rem;
+$h-medium:  3.5rem;
+$h-large:   4rem;
 
 @mixin icon($width, $height) {
   width: $width;

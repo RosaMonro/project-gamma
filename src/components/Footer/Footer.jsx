@@ -1,4 +1,5 @@
 import Icon from '../Icon/icon'
+import Link from '../Links/Link'
 import MyButton from '../MyButton/MyButton'
 import './Footer.scss'
 
@@ -12,15 +13,15 @@ export default function Footer() {
 
                 <hr className="horizontal-line  horizontal-line--left"></hr>
 
-                <p className="contact__mail  font-weight-semibold  font-size-20-xs">Puedes escribirme a 
+                <p className="contact__mail  font-weight-semibold  font-size-20-xs">Puedes escribirme a '
                     <MyButton  variant="primary" text="rosamaria.monro" isButton="false"></MyButton>
-                    @gmail.com</p>
+                    @gmail.com'</p>
                 
                 <div className="contact__icons">
 
-                    <Link href="">
-                        <Icon size="" src="" alt=""></Icon>
-                    </Link>
+                    <Link  url="https://codepen.io/RosaMonro" target="_blank" icon={<Icon size="small" url="../../../Icons/codepen.svg" alt="Icono con enlace a codepen"/>}></Link>
+                    <Link  url="https://github.com/RosaMonro" target="_blank" icon={<Icon size="small" url="../../../Icons/github.svg" alt="Icono con enlace a github"/>}></Link>
+                    <Link  url="https://www.linkedin.com/in/rosamariamonteroroman/" target="_blank" icon={<Icon size="small" url="../../../Icons/linkedin.svg" alt="Icono con enlace a linkedin"/>}></Link>
 
                 </div>
 
