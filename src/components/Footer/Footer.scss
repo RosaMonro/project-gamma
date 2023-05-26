@@ -2,8 +2,6 @@
 @import '../../scss/variables';
 @import '../../scss/mixins';
 
-// linea horizontal
-//  border: 2.3px solid $color-fucsia; 
 
 footer {
     background-color: $color-black;
@@ -58,9 +56,11 @@ footer {
         gap: sp(xxs);
 
         padding-top: sp(xxs);
+        padding-bottom: sp(xxs);
 
         @include mq ($bp-tablet) { //768px
             padding-top: sp(xs);
+            padding-bottom: sp(xs);
         }
     }
 }

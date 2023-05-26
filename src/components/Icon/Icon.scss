@@ -1,15 +1,23 @@
 @import '../../scss/_variables';
 @import '../../scss/mixins';
 
+.icon {
+    border: 3px $color-black solid;
 
-.size-small {
-    @include icon($w-small, $h-small);
-
-    @include mq ($bp-tablet) { //768px
-        @include icon ($w-medium, $h-medium);
+    &:hover {
+        border: 3px $color-fucsia solid;
     }
 
-    @include mq ($bp-small-desktop) { //1024px
-        @include icon ($w-large, $h-large);
-    }
-  }
+    &-size--small {
+        @include icon($w-small, $h-small);
+    
+        @include mq ($bp-tablet) { //768px
+            @include icon ($w-medium, $h-medium);
+        }
+    
+        @include mq ($bp-small-desktop) { //1024px
+            @include icon ($w-large, $h-large);
+        }
+      }
+}
+

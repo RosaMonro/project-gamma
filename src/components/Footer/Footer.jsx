@@ -16,6 +16,8 @@ export default function Footer() {
                 <p className="contact__mail  font-weight-semibold  font-size-20-xs">Puedes escribirme a&nbsp;
                     <span className="nowrap"><MyButton  variant="primary" text="rosamaria.monro" isButton="false"></MyButton>
                     @gmail.com</span></p>
+
+                <p className="contact__mail  font-weight-semibold  font-size-20-xs">Y también echar un vistazo a mis trabajos</p>
                 
                 <div className="contact__icons">
 
