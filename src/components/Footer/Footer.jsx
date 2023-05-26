@@ -1,4 +1,4 @@
-import Icon from '../Icon/icon'
+import Icon from '../Icon/Icon'
 import Link from '../Links/Link'
 import MyButton from '../MyButton/MyButton'
 import './Footer.scss'
