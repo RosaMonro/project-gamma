@@ -1,4 +1,3 @@
-import { IconChevron } from '../components/Icon/IconChevron';
 import MyButton from '../components/MyButton/MyButton';
 import Nav from './Nav/Nav';
 
@@ -81,12 +80,6 @@ export default function Styleguide () {
                     <MyButton variant="cta" text="Soy un enlace" isButton="false"></MyButton>
                 
                 </div>
-
-        </section>
-
-        <section>
-
-            <IconChevron></IconChevron>
 
         </section>
 

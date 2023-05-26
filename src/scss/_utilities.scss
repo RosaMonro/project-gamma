@@ -10,8 +10,6 @@
     border: 2.3px solid $color-fucsia; 
 
     &--center {
-        border: 2.3px solid $color-fucsia; 
-
         margin: 3em 30%; 
 
         @include mq ($bp-small-tablet) { //576px
@@ -28,12 +26,10 @@
     }
 
     &--left {
-        border: 2.3px solid $color-fucsia; 
         margin-right: 35%
     }
 
     &--right {
-        border: 2.3px solid $color-fucsia; 
         margin-left: 50%;
     }
    

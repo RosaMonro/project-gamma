@@ -1,0 +1,15 @@
+@import '../../scss/_variables';
+@import '../../scss/mixins';
+
+
+.size-small {
+    @include icon($w-small, $h-small);
+
+    @include mq ($bp-tablet) { //768px
+        @include icon ($w-medium, $h-medium);
+    }
+
+    @include mq ($bp-small-desktop) { //1024px
+        @include icon ($w-large, $h-large);
+    }
+  }

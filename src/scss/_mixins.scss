@@ -11,3 +11,20 @@ $bp-small-tablet:       36rem; //576px
             @content; 
         }
 }
+
+/*-----TAMAÑOS ICONOS----*/
+
+$w-small:   3rem;
+$w-medium:  4rem;
+$w-large:   5rem;
+
+$h-small:   3rem;
+$h-medium:  4rem;
+$h-large:   5rem;
+
+@mixin icon($width, $height) {
+  width: $width;
+  height: $height;
+}
+
+
