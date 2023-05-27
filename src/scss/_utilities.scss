@@ -7,17 +7,17 @@
 }
 
 .giant-text {
-    font-size: 66px;
+    font-size: 72px;
     font-weight: $font-weight-bold;
     line-height: 0.7;
     color: $color-fucsia;
 
     @include mq ($bp-small-tablet) { //576px
-        font-size: 100px;
+        font-size: 150px;
     }
 
     @include mq ($bp-small-desktop) { //1024px
-        font-size: 128px;
+        font-size: 200px;
     }
 }
 
