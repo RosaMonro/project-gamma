@@ -29,7 +29,6 @@
     font-size: $font-size-xxs; //16px
     font-weight: $font-weight-semibold;
 
-    border: none;
     text-decoration: none;
     transition: 200ms;
     cursor: pointer;
@@ -81,6 +80,7 @@
     &--cta {
         background-color: $background-color-color-fucsia;
         color: $color-white;
+        border: 2px $color-fucsia solid;
 
         &:hover {
             background-color: transparent;

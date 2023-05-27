@@ -1,3 +1,6 @@
+import '../scss/global.scss'
+
+
 export default function Projects() {
-    return <h1>Hola, soy el contacto</h1>
+    return <h1>Hola, soy tus proyectos</h1>
 }

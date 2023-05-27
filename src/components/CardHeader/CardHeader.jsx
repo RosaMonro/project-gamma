@@ -42,7 +42,7 @@ export function CardHeader(props) {
             </div>
 
             <div className="header__button">
-                <MyButton variant="secondary" text="Mi PORTFOLIO" isButton="true" url=""></MyButton>
+                <MyButton variant="secondary" text="Mi PORTFOLIO" isButton="true" url="/Projects"></MyButton>
                 <MyButton  variant="cta" text="CONTÁCTAME" isButton="true" url="#footer-point"></MyButton>
             </div>
 
