@@ -1,0 +1,44 @@
+@import '../scss/typography';
+@import '../scss/variables';
+@import '../scss/mixins';
+
+.project-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.contain-header__photo-bg {
+    background-image: url('../../bg-movil_861.png');
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    height: 100vh;
+
+    @include mq ($bp-small-tablet) { //576px
+        background-image: url('../../bg-desktop_1400.jpg'); 
+    }
+}
+
+
+.project-title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-grow: 1;
+
+    & p{
+        text-align: center;
+        margin: sp(xxs);
+    
+        @include mq ($bp-small-tablet) { //576px
+            margin: sp(xs);
+        }
+    
+        @include mq ($bp-small-desktop) { //1024px
+            margin: sp(s);
+        }
+    }
+}
+

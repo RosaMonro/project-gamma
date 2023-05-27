@@ -34,19 +34,19 @@ export function CardHeader(props) {
 
     return (
 
-        <div className="header__container">
+        <div className="home-header__container">
 
-            <div className="header__info">
+            <div className="home-header__info">
                 <p className="h1  font-weight-bold  font-style-italic">{props.name}</p>
                 <h1 className="font-weight-light  font-style-italic">{typedText}</h1>
             </div>
 
-            <div className="header__button">
+            <div className="home-header__button">
                 <MyButton variant="secondary" text="Mi PORTFOLIO" isButton="true" url="/Projects"></MyButton>
                 <MyButton  variant="cta" text="CONTÁCTAME" isButton="true" url="#footer-point"></MyButton>
             </div>
 
-            <div className="header__cta">
+            <div className="home-header__cta">
               <p className="font-weight-light  font-size-20-xs">¡Puedes leer más <MyButton  variant="secondary" text="sobre mí" url="#sobremi-point" isButton="false"></MyButton>!</p>
             </div>
 

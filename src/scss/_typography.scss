@@ -3,11 +3,14 @@
 
 h1, 
 .h1 {
-    font-size: $font-size-l;
+    font-size: $font-size-m;
     margin: 0;
 
+    @include mq ($bp-small-tablet) { //576px
+        font-size: $font-size-l;
+    }
 
-    @include mq ($bp-small-desktop) {
+    @include mq ($bp-small-desktop) { //1024px
         font-size: $font-size-xl;
     }
 

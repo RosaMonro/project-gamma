@@ -5,19 +5,19 @@ import { CardHeader } from '../components/CardHeader/CardHeader'
 export default function Home() {
     return (
         <>
-        <header className="header  header-bg">
+        <header className="home-header  home-header-bg">
           <CardHeader name='Rosa Montero'  role='Frontend'></CardHeader>
         </header>
 
         <main className='color-bg-white-darken' id="sobremi-point">
 
-          <section  className="main  contain-photo-bg  max-width">
+          <section  className="home-main  contain-main__photo-bg  max-width">
 
               <h3 className="font-style-italic  font-weight-semibold">Quién soy y qué hago</h3>
 
-              <hr className="horizontal-line horizontal-line--center"></hr>
+              <hr className="horizontal-line horizontal-line--small-center"></hr>
 
-              <div className="main__text">
+              <div className="home-main__text">
 
                   <div className="text-about  color-bg-white">
                       <h4 className="h6  font-weight-light  color-fucsia-darken">Soy frontend-UI</h4>

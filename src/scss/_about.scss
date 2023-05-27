@@ -2,7 +2,7 @@
 @import '../scss/variables';
 @import '../scss/mixins';
 
-.main {
+.home-main {
     padding-left: sp(xs);
     padding-right: sp(xs);
     padding-top: sp(l);
@@ -35,7 +35,7 @@
     }
 }
 
-.contain-photo-bg {
+.contain-main__photo-bg {
     background-image: url('../../bg-movil_861.png');
     background-size: cover;
     background-attachment: fixed;
