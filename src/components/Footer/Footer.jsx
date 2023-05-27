@@ -14,7 +14,7 @@ export default function Footer() {
                 <hr className="horizontal-line  horizontal-line--left"></hr>
 
                 <p className="contact__mail  font-weight-semibold  font-size-20-xs">Puedes escribirme a&nbsp;
-                    <span className="nowrap"><MyButton  variant="primary" text="rosamaria.monro" isButton="false"></MyButton>
+                    <span className="nowrap"><MyButton  variant="primary" text="rosamaria.monro" url="mailto:rosamaria.monro@gmail.com" isButton="false"></MyButton>
                     @gmail.com</span></p>
                 
                 <div className="contact__icons">

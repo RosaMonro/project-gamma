@@ -1,12 +1,14 @@
+import CardProject from '../components/CardProjects/CardProject'
 import '../scss/global.scss'
 
 
 export default function Projects() {
     return (
         <>
+
         <header className="project-header  contain-header__photo-bg ">
 
-            <div class="project-title">
+            <div className="project-title">
 
                 <hr className="horizontal-line horizontal-line--big-center"></hr>
                 
@@ -20,8 +22,9 @@ export default function Projects() {
         </header>
 
         <main>
-            
+            <CardProject></CardProject>
         </main>
+
         </>
     )
 }
