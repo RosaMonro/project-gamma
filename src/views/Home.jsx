@@ -9,7 +9,7 @@ export default function Home() {
           <CardHeader name='Rosa Montero'  role='Frontend'></CardHeader>
         </header>
 
-        <main className='color-bg-white-darken'>
+        <main className='color-bg-white-darken' id="sobremi-point">
 
           <section  className="main  contain-photo-bg  max-width">
 

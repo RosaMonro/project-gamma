@@ -5,7 +5,7 @@ import './Footer.scss'
 
 export default function Footer() {
     return (
-        <footer className="text-color--white  max-width">
+        <footer className="text-color--white  max-width" id="footer-point">
 
             <div className="contact">
 

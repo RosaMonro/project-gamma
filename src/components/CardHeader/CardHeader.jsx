@@ -42,12 +42,12 @@ export function CardHeader(props) {
             </div>
 
             <div className="header__button">
-                <MyButton variant="secondary" text="CONTÁCTAME" isButton="true"></MyButton>
-                <MyButton  variant="cta" text="MI TRABAJO" isButton="true"></MyButton>
+                <MyButton variant="secondary" text="Mi PORTFOLIO" isButton="true" url=""></MyButton>
+                <MyButton  variant="cta" text="CONTÁCTAME" isButton="true" url="#footer-point"></MyButton>
             </div>
 
             <div className="header__cta">
-              <p className="font-weight-light  font-size-20-xs">¡Puedes leer más <MyButton  variant="secondary" text="sobre mí" isButton="false"></MyButton>!</p>
+              <p className="font-weight-light  font-size-20-xs">¡Puedes leer más <MyButton  variant="secondary" text="sobre mí" url="#sobremi-point" isButton="false"></MyButton>!</p>
             </div>
 
         </div>
