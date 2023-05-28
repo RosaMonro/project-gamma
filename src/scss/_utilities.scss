@@ -24,7 +24,27 @@
 .horizontal-line {
     border: 2.3px solid $color-fucsia; 
 
-    &--small-center {
+    &--left {
+        margin-right: 35%
+    }
+
+    &--right {
+        margin-left: 50%;
+    }
+
+    &--center {
+        border: 1.5px solid $color-fucsia; 
+
+        margin: 3em auto;
+        width: 100%
+    }
+
+    &--center--big {
+        margin: 3em auto;
+        width: 70%;
+    }   
+
+    &--center--smalll {
         margin: 3em 30%; 
 
         @include mq ($bp-small-tablet) { //576px
@@ -39,32 +59,8 @@
             margin: 4em 40%; 
         }
     }
-
-    &--big-center {
-           margin: 3em;
-           width: 70%;
-
-        @include mq ($bp-small-tablet) { //576px
-        }
-
-        @include mq ($bp-tablet) { //768px
-        }
-
-        @include mq ($bp-small-desktop) { //1024px
-
-        }
-    }
-
-    &--left {
-        margin-right: 35%
-    }
-
-    &--right {
-        margin-left: 50%;
-    }
-   
   }
 
   .nowrap {
-    white-space: nowrap;
+    white-space: nowrap; //garantiza que el contenido dentro de ese elemento no se dividirá en varias líneas.
   }

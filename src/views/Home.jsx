@@ -15,7 +15,7 @@ export default function Home() {
 
               <h3 className="font-style-italic  font-weight-semibold">Quién soy y qué hago</h3>
 
-              <hr className="horizontal-line horizontal-line--small-center"></hr>
+              <hr className="horizontal-line horizontal-line--center--smalll"></hr>
 
               <div className="home-main__text">
 

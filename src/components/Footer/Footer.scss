@@ -4,8 +4,6 @@
 
 
 footer {
-    background-color: $color-black;
-
     display: flex;
     flex-direction: column;
     gap: sp(xxl);
@@ -63,6 +61,12 @@ footer {
             padding-bottom: sp(xs);
         }
     }
+}
+
+.contactandarrow {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
 
 .thanks {

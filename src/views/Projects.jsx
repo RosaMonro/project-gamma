@@ -10,12 +10,12 @@ export default function Projects() {
 
             <div className="project-title">
 
-                <hr className="horizontal-line horizontal-line--big-center"></hr>
+                <hr className="horizontal-line horizontal-line--center--big"></hr>
                 
                 <p className="h1 font-weight-bold">Proyectos <span className="giant-text">&</span></p>
                 <p className="h1 font-weight-bold">aplicaciones</p>
 
-                <hr className="horizontal-line horizontal-line--big-center"></hr>
+                <hr className="horizontal-line horizontal-line--center--big"></hr>
 
             </div>          
 

@@ -1,3 +1,63 @@
 @import '../../scss/typography';
 @import '../../scss/variables';
 @import '../../scss/mixins';
+
+.project {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    gap: sp(m);
+    padding: sp(m) sp(xxs);
+
+    @include mq ($bp-tablet) { // 768px
+        display:grid;
+        grid-template-columns: 3fr 8fr; 
+
+        padding: sp(l) sp(s);
+    }
+
+    @include mq ($bp-small-desktop) { // 1024px
+        padding: sp(xl) sp(xl);
+    }
+
+    @include mq ($bp-desktop) { // 1024px
+        padding: sp(xl) sp(xxl);
+    }
+
+    &__img {
+        text-align: center;
+
+        & img {
+            width: 100%;
+            height: auto;
+
+            box-shadow: rgba($color-fucsia-darken, 0.4) 2px 2px,
+                        rgba($color-black-lighten, 0.3) 8px 8px,
+                        rgba($color-grey, 0.2) 15px 15px,
+                        rgba($color-grey-lighten, 0.1) 20px 20px,
+                        rgba($color-white-darken, 0.05) 25px 25px;
+        }
+    }
+
+    &__info {
+
+        &__title{
+            padding-bottom: 1em;
+        }
+
+        &__subtitle,
+        &__tools,
+        &__abstract {
+            display: flex;
+            gap: sp(xxs);
+        }
+
+        &__buttons {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            gap: sp(xs);
+        }
+    }
+}

@@ -19,5 +19,17 @@
             @include icon ($w-large, $h-large);
         }
       }
+
+      &-size--mini {
+        @include icon($w-mini, $h-mini);
+    
+        @include mq ($bp-tablet) { //768px
+            @include icon ($w-small, $h-small);
+        }
+    
+        @include mq ($bp-small-desktop) { //1024px
+            @include icon ($w-medium, $h-medium);
+        }
+      }
 }
 
