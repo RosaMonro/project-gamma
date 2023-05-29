@@ -23,6 +23,8 @@ export default function Projects() {
 
         <main>
             <CardProject></CardProject>
+            <CardProject></CardProject>
+            <CardProject></CardProject>
         </main>
 
         </>
