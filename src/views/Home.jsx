@@ -1,5 +1,5 @@
 import '../scss/global.scss'
-import { CardHeader } from '../components/CardHeader/CardHeader'
+import CardHeader from '../components/CardHeader/CardHeader'
 
 
 export default function Home() {

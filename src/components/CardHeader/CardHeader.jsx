@@ -4,7 +4,7 @@ import './CardHeader.scss'
 import React, { useEffect, useState } from 'react';
 
 
-export function CardHeader(props) {
+export default function CardHeader(props) {
     const [typedText, setTypedText] = useState('');
     const targetText = 'Frontend-UI';
 
