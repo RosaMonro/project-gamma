@@ -1,9 +1,15 @@
 import Icon from '../Icon/Icon'
 import MyButton from '../MyButton/MyButton'
 import './CardProject.scss'
+import '../MyButton/MyButton.scss'
+import React, { useState } from 'react';
 
 
 export default function CardProject() {
+
+    const [expanded, setExpanded] = useState(true);
+
+
     return (
         <div className="project  color-bg-white-darken" id="scroll-inicio">
             <div className="project__img">
@@ -31,11 +37,12 @@ export default function CardProject() {
 
                 <div className="project__info__abstract">
                     <p className="font-size-24-s">0.3</p>
-                    <p className="font-size-16-xxs">Lorem ipsum dolor sit amet,
-                        consectetur adipiscing elit. Donec ultricies nibh sit amet 
-                        ipsum tristique, ac venenatis nulla fermentum. In commodo 
-                        libero at lorem scelerisque, ac blandit turpis finibus. 
-                        Fusce malesuada sapien sed velit aliquet luctus</p>
+                    <p className="font-size-16-xxs  expandable">
+                        {expanded 
+                        ? "Lorem ipsum dolor sit amet consectetur adipiscing elit. Donec ultricies nibh sit amet ipsum tristique, ac venenatis nulla fermentum. In commodo libero at lorem scelerisque, ac blandit turpis finibus. usce malesuada sapien sed velit aliquet luctus"
+                        : "Lorem ipsum dolor sit amet consectetur adipiscing elit. Donec ultricies nibh sit amet ipsum tristique, ac venenatis nulla fermentum. In commodo libero at lorem scelerisque, ac blandit turpis finibus. usce malesuada sapien sed velit aliquet luctuLorem ipsum dolor sit amet consectetur adipiscing elit. Donec ultricies nibh sit amet ipsum tristique, ac venenatis nulla fermentum. In commodo libero at lorem scelerisque, ac blandit turpis finibus. usce malesuada sapien sed velit aliquet luctuLorem ipsum dolor sit amet consectetur adipiscing elit. Donec ultricies nibh sit amet ipsum tristique, ac venenatis nulla fermentum. In commodo libero at lorem scelerisque, ac blandit turpis finibus. usce malesuada sapien sed velit aliquet luctuLorem ipsum dolor sit amet consectetur adipiscing elit. Donec ultricies nibh sit amet ipsum tristique, ac venenatis nulla fermentum. In commodo libero at lorem scelerisque, ac blandit turpis finibus. usce malesuada sapien sed velit aliquet luctu"}
+                        &nbsp;<span onClick={() => setExpanded(!expanded)} className="expandable-text"> {expanded ? "Leer más" : "Leer menos"}</span>
+                    </p>
                 </div>
 
                 <hr className="horizontal-line horizontal-line--center"></hr>

@@ -7,22 +7,23 @@
     flex-direction: column;
     align-items: center;
 
-    gap: sp(m);
+    gap: sp(xxl);
     padding: sp(m) sp(xxs);
 
     @include mq ($bp-tablet) { // 768px
         display:grid;
         grid-template-columns: 3fr 8fr; 
 
+        gap: sp(xl);
         padding: sp(l) sp(s);
     }
 
     @include mq ($bp-small-desktop) { // 1024px
-        padding: sp(xl) sp(xl);
+        padding: sp(xxl) sp(xl);
     }
 
     @include mq ($bp-desktop) { // 1024px
-        padding: sp(xl) sp(xxl);
+        padding: sp(xxl) sp(xxl);
     }
 
     &__img {
@@ -50,6 +51,7 @@
         &__tools,
         &__abstract {
             display: flex;
+            align-items: center;
             gap: sp(xxs);
         }
 
@@ -61,3 +63,17 @@
         }
     }
 }
+
+.expandable {
+    overflow: hidden;
+    transition: max-height 1s ease;
+
+    &-text {
+        height: auto;
+        color: $color-fucsia;
+        font-weight: $font-weight-semibold;
+        text-decoration: underline;
+        cursor: pointer;
+    }
+}
+
