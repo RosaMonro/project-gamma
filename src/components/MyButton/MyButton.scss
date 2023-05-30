@@ -77,6 +77,17 @@
         }
     }
 
+    &--tertiary {
+        background-color: $background-color-color-fucsia;
+        color: $color-white;
+        border: 2px $color-fucsia solid;
+
+        &:hover {
+            background-color: $background-color-color-white;
+            color: $color-fucsia-darken;
+        }
+    }
+
     &--cta {
         background-color: $background-color-color-fucsia;
         color: $color-white;

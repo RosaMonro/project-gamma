@@ -11,7 +11,7 @@ export default function CardProject() {
 
 
     return (
-        <div className="project  color-bg-white-darken" id="scroll-inicio">
+        <div className="project" id="scroll-inicio">
             <div className="project__img">
                 <img src="../../../Alfa_byn.png" alt="" />
             </div>
@@ -23,6 +23,7 @@ export default function CardProject() {
                 <div className="project__info__subtitle">
                     <p className="font-size-24-s">0.1</p>
                     <p className="font-size-16-xxs">lorem ipsum dolor sit</p>
+                    <p className="font-size-16-xxs">(xx/xx/xxxx)</p>
                 </div>
 
                 <hr className="horizontal-line horizontal-line--center"></hr>
@@ -52,6 +53,8 @@ export default function CardProject() {
                     <MyButton  variant="primary" text="Ver proyecto" isButton="true" url=""></MyButton>                   
                 </div>
             </div>
+
         </div>
+
     )
 }

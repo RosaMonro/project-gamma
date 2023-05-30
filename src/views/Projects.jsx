@@ -1,4 +1,5 @@
 import CardProject from '../components/CardProjects/CardProject'
+import MyButton from '../components/MyButton/MyButton'
 import '../scss/global.scss'
 
 
@@ -21,10 +22,14 @@ export default function Projects() {
 
         </header>
 
-        <main>
+        <main className="color-bg-white-darken">
             <CardProject></CardProject>
             <CardProject></CardProject>
             <CardProject></CardProject>
+
+            <div className="link-home">
+                <MyButton  variant="primary" text="Volver a al inicio" isButton="false" url="/"></MyButton>                   
+            </div>
         </main>
 
         </>

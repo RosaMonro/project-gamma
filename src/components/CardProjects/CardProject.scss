@@ -7,19 +7,27 @@
     flex-direction: column;
     align-items: center;
 
-    gap: sp(xxl);
-    padding: sp(m) sp(xxs);
+    gap: sp(l);
+    padding: sp(m) sp(l);
+
+    max-width: 1150px;
+    margin-left: auto;
+    margin-right: auto;
+
+    @include mq ($bp-small-tablet) { // 1024px
+        padding: sp(l) sp(xl);
+    }
 
     @include mq ($bp-tablet) { // 768px
-        display:grid;
-        grid-template-columns: 3fr 8fr; 
+        display: grid;
+        grid-template-columns: 1fr 4fr; 
 
         gap: sp(xl);
         padding: sp(l) sp(s);
     }
 
     @include mq ($bp-small-desktop) { // 1024px
-        padding: sp(xxl) sp(xl);
+        padding: sp(xl) sp(xl);
     }
 
     @include mq ($bp-desktop) { // 1024px
@@ -27,7 +35,8 @@
     }
 
     &__img {
-        text-align: center;
+        width: 27rem;
+        height: auto;
 
         & img {
             width: 100%;

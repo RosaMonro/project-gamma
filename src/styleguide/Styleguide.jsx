@@ -69,6 +69,7 @@ export default function Styleguide () {
 
                     <MyButton variant="primary" text="Botón" isButton="true"></MyButton>
                     <MyButton variant="secondary" text="Botón" isButton="true"></MyButton>
+                    <MyButton variant="tertiary" text="Botón" isButton="true"></MyButton>
                     <MyButton variant="cta" text="Botón" isButton="true"></MyButton>
 
                 </div>
