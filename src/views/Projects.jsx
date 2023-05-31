@@ -29,7 +29,6 @@ export default function Projects() {
 
             <div className="link-home">
                 <MyLink  variant="primary" text="Volver a al inicio" isButton="false" url="/"></MyLink>
-                {/* <MyButton  variant="primary" text="Volver a al inicio" isButton="false" url="/"></MyButton>                    */}
             </div>
         </main>
 

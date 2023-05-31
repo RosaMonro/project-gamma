@@ -40,6 +40,28 @@
 }
 
 .link-home {
-    text-align: center;
-    padding-bottom: sp(xxl);
+    text-align:center;
+    padding: sp(m) sp(l);
+
+    max-width: 1150px;
+    margin-left: auto;
+    margin-right: auto;
+
+    @include mq ($bp-small-tablet) { // 576px
+        text-align:right;
+        padding: 0 sp(xl) sp(l) sp(xl);
+    }
+
+    @include mq ($bp-tablet) { // 768px
+        padding: 0 sp(s) sp(l) sp(s);
+    }
+
+    @include mq ($bp-small-desktop) { // 1024px
+        padding: 0 sp(xl) sp(xl) sp(xl);
+    }
+
+    @include mq ($bp-desktop) { // 1440px
+        padding: 0 sp(xxl)sp(xxl) sp(xxl);
+    }
+    
 }

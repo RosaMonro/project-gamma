@@ -51,8 +51,6 @@ export default function CardProject() {
                 <div className="project__info__buttons">
                     <MyLink  variant="primary" text="Ver código" isButton="true" url=""></MyLink>
                     <MyLink  variant="primary" text="Ver proyecto" isButton="true" url=""></MyLink>
-                    {/* <MyLink variant="primary" text="Ver código" isButton="true" url=""></MyButton>
-                    <MyButton  variant="primary" text="Ver proyecto" isButton="true" url=""></MyButton>                    */}
                 </div>
             </div>
 

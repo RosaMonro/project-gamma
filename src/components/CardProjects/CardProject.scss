@@ -13,7 +13,7 @@
     margin-left: auto;
     margin-right: auto;
 
-    @include mq ($bp-small-tablet) { // 1024px
+    @include mq ($bp-small-tablet) { // 576px
         padding: sp(l) sp(xl);
     }
 
@@ -29,7 +29,7 @@
         padding: sp(xl) sp(xl);
     }
 
-    @include mq ($bp-desktop) { // 1024px
+    @include mq ($bp-desktop) { // 1440px
         padding: sp(xxl) sp(xxl);
     }
 
