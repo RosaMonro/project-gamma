@@ -1,4 +1,4 @@
-import MyButton from '../components/MyButton/MyButton';
+import MyLink from '../components/MyLinks/MyLink';
 import Nav from './Nav/Nav';
 
 
@@ -67,18 +67,18 @@ export default function Styleguide () {
 
                 <div className="sg__btns">
 
-                    <MyButton variant="primary" text="Botón" isButton="true"></MyButton>
-                    <MyButton variant="secondary" text="Botón" isButton="true"></MyButton>
-                    <MyButton variant="tertiary" text="Botón" isButton="true"></MyButton>
-                    <MyButton variant="cta" text="Botón" isButton="true"></MyButton>
+                    <MyLink variant="primary" text="Botón" isButton="true"></MyLink>
+                    <MyLink variant="secondary" text="Botón" isButton="true"></MyLink>
+                    <MyLink variant="tertiary" text="Botón" isButton="true"></MyLink>
+                    <MyLink variant="cta" text="Botón" isButton="true"></MyLink>
 
                 </div>
 
                 <div className="sg__links">
 
-                    <MyButton variant="primary" text="Soy un enlace" isButton="false"></MyButton>
-                    <MyButton variant="secondary" text="Soy un enlace" isButton="false"></MyButton>
-                    <MyButton variant="cta" text="Soy un enlace" isButton="false"></MyButton>
+                    <MyLink variant="primary" text="Soy un enlace" isButton="false"></MyLink>
+                    <MyLink variant="secondary" text="Soy un enlace" isButton="false"></MyLink>
+                    <MyLink variant="cta" text="Soy un enlace" isButton="false"></MyLink>
                 
                 </div>
 

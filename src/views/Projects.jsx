@@ -1,5 +1,5 @@
 import CardProject from '../components/CardProjects/CardProject'
-import MyButton from '../components/MyButton/MyButton'
+import MyLink from '../components/MyLinks/MyLink'
 import '../scss/global.scss'
 
 
@@ -28,7 +28,8 @@ export default function Projects() {
             <CardProject></CardProject>
 
             <div className="link-home">
-                <MyButton  variant="primary" text="Volver a al inicio" isButton="false" url="/"></MyButton>                   
+                <MyLink  variant="primary" text="Volver a al inicio" isButton="false" url="/"></MyLink>
+                {/* <MyButton  variant="primary" text="Volver a al inicio" isButton="false" url="/"></MyButton>                    */}
             </div>
         </main>
 

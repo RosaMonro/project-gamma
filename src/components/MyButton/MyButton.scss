@@ -1,148 +1,148 @@
-@import '../../scss/variables';
-@import '../../scss/mixins';
+// @import '../../scss/variables';
+// @import '../../scss/mixins';
 
-.sg__buttons {
-    text-align: center;
-}
+// .sg__buttons {
+//     text-align: center;
+// }
 
-.sg__btns,
-.sg__links {
-    display: flex;
-    justify-content: center;
-    gap: 48px;
+// .sg__btns,
+// .sg__links {
+//     display: flex;
+//     justify-content: center;
+//     gap: 48px;
     
-    margin: 1rem 2.4rem 1rem 2.4rem;
-    padding: 2.4rem;
-}
+//     margin: 1rem 2.4rem 1rem 2.4rem;
+//     padding: 2.4rem;
+// }
 
-.btn{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+// .btn{
+//     display: flex;
+//     justify-content: center;
+//     align-items: center;
 
-    width: 15rem;
-    height: 4rem;
-    max-width: 15rem;
-    margin: sp(s) 0;
+//     width: 15rem;
+//     height: 4rem;
+//     max-width: 15rem;
+//     margin: sp(s) 0;
 
-    font-family: $font-primary;
-    font-size: $font-size-xxs; //16px
-    font-weight: $font-weight-semibold;
+//     font-family: $font-primary;
+//     font-size: $font-size-xxs; //16px
+//     font-weight: $font-weight-semibold;
 
-    text-decoration: none;
-    transition: 200ms;
-    cursor: pointer;
+//     text-decoration: none;
+//     transition: 200ms;
+//     cursor: pointer;
 
-    @include mq ($bp-small-desktop) { //1024px
-        width: 18rem;
-        height: 5.5rem;
-        max-width: 27.5rem;
-        margin: sp(s) 0;
+//     @include mq ($bp-small-desktop) { //1024px
+//         width: 18rem;
+//         height: 5.5rem;
+//         max-width: 27.5rem;
+//         margin: sp(s) 0;
 
-        font-size: $font-size-xxs; //16px
-    }
+//         font-size: $font-size-xxs; //16px
+//     }
 
-    @include mq ($bp-desktop) { //1440px
-        width: 24rem;
-        height: 6.5rem;
-        max-width: 27.5rem;
+//     @include mq ($bp-desktop) { //1440px
+//         width: 24rem;
+//         height: 6.5rem;
+//         max-width: 27.5rem;
 
-        font-size: $font-size-xs; //20px
-    }
+//         font-size: $font-size-xs; //20px
+//     }
 
-    &--primary {
-        background-color: $background-color-color-white;
-        color: $color-black;
-        border-bottom: 2px $color-fucsia solid;
-        border-top: 2px $color-white solid;
-        border-left: 2px $color-white solid;
-        border-right: 2px $color-white solid;
+//     &--primary {
+//         background-color: $background-color-color-white;
+//         color: $color-black;
+//         border-bottom: 2px $color-fucsia solid;
+//         border-top: 2px $color-white solid;
+//         border-left: 2px $color-white solid;
+//         border-right: 2px $color-white solid;
 
-        &:hover {
-            background-color: $background-color-color-fucsia;
-            border: 2px $color-fucsia solid;
-            color: $color-white;
-        }
-    }
+//         &:hover {
+//             background-color: $background-color-color-fucsia;
+//             border: 2px $color-fucsia solid;
+//             color: $color-white;
+//         }
+//     }
 
-    &--secondary {
-        background-color: transparent;
-        color: $color-white;
-        border: 2px $color-white-darken solid;
+//     &--secondary {
+//         background-color: transparent;
+//         color: $color-white;
+//         border: 2px $color-white-darken solid;
 
-        &:hover {
-            border: 2px $color-white solid;
-            box-shadow: rgba(255, 255, 255, 0.5) 0px 10px 50px;
-            color: $color-white;
-        }
-    }
+//         &:hover {
+//             border: 2px $color-white solid;
+//             box-shadow: rgba(255, 255, 255, 0.5) 0px 10px 50px;
+//             color: $color-white;
+//         }
+//     }
 
-    &--tertiary {
-        background-color: $background-color-color-fucsia;
-        color: $color-white;
-        border: 2px $color-fucsia solid;
+//     &--tertiary {
+//         background-color: $background-color-color-fucsia;
+//         color: $color-white;
+//         border: 2px $color-fucsia solid;
 
-        &:hover {
-            background-color: $background-color-color-white;
-            color: $color-fucsia-darken;
-        }
-    }
+//         &:hover {
+//             background-color: $background-color-color-white;
+//             color: $color-fucsia-darken;
+//         }
+//     }
 
-    &--cta {
-        background-color: $background-color-color-fucsia;
-        color: $color-white;
-        border: 2px $color-fucsia solid;
+//     &--cta {
+//         background-color: $background-color-color-fucsia;
+//         color: $color-white;
+//         border: 2px $color-fucsia solid;
 
-        &:hover {
-            background-color: transparent;
-            border: 2px $color-white solid;
-            box-shadow: rgba(255, 255, 255, 0.5) 0px 10px 50px;
-            color: $color-white;
-        }
-    }
-}
+//         &:hover {
+//             background-color: transparent;
+//             border: 2px $color-white solid;
+//             box-shadow: rgba(255, 255, 255, 0.5) 0px 10px 50px;
+//             color: $color-white;
+//         }
+//     }
+// }
 
-.link {
-    display: inline-block;
+// .link {
+//     display: inline-block;
 
-    font-family: $font-primary;
-    font-size: $font-size-xs;
-    font-weight: $font-weight-bold;
+//     font-family: $font-primary;
+//     font-size: $font-size-xs;
+//     font-weight: $font-weight-bold;
 
-    text-decoration: none;
-    transition: all 0.5s ease;
-    cursor: pointer;
+//     text-decoration: none;
+//     transition: all 0.5s ease;
+//     cursor: pointer;
 
-    @include mq ($bp-small-desktop) { //1024px
-        font-size: $font-size-s; //24px
-    }
+//     @include mq ($bp-small-desktop) { //1024px
+//         font-size: $font-size-s; //24px
+//     }
 
-    &--primary {
-        color: $color-fucsia-darken;
-        font-weight: $font-weight-semibold;
+//     &--primary {
+//         color: $color-fucsia-darken;
+//         font-weight: $font-weight-semibold;
 
-        &:hover {
-            font-weight: $font-weight-bold;
-        }
-    }
+//         &:hover {
+//             font-weight: $font-weight-bold;
+//         }
+//     }
 
-    &--secondary {
-        color: $color-fucsia-darken;
-        font-weight: $font-weight-light;
+//     &--secondary {
+//         color: $color-fucsia-darken;
+//         font-weight: $font-weight-light;
 
-        &:hover {
-            font-weight: $font-weight-medium;
-        }
-    }
+//         &:hover {
+//             font-weight: $font-weight-medium;
+//         }
+//     }
 
-    &--cta {
-        color: $color-grey;
-        font-weight: $font-weight-semibold;
+//     &--cta {
+//         color: $color-grey;
+//         font-weight: $font-weight-semibold;
 
-        &:hover {
-            color: $color-black;
-        }
-    }
-}
+//         &:hover {
+//             color: $color-black;
+//         }
+//     }
+// }
 
 /* los botones no heredan tipografía de body. Hay q poner la font-family */

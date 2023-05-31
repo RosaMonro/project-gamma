@@ -1,7 +1,7 @@
 import Icon from '../Icon/Icon'
-import MyButton from '../MyButton/MyButton'
+import MyLink from '../MyLinks/MyLink'
 import './CardProject.scss'
-import '../MyButton/MyButton.scss'
+import '../MyLinks/MyLink.scss'
 import React, { useState } from 'react';
 
 
@@ -49,8 +49,10 @@ export default function CardProject() {
                 <hr className="horizontal-line horizontal-line--center"></hr>
 
                 <div className="project__info__buttons">
-                    <MyButton variant="primary" text="Ver código" isButton="true" url=""></MyButton>
-                    <MyButton  variant="primary" text="Ver proyecto" isButton="true" url=""></MyButton>                   
+                    <MyLink  variant="primary" text="Ver código" isButton="true" url=""></MyLink>
+                    <MyLink  variant="primary" text="Ver proyecto" isButton="true" url=""></MyLink>
+                    {/* <MyLink variant="primary" text="Ver código" isButton="true" url=""></MyButton>
+                    <MyButton  variant="primary" text="Ver proyecto" isButton="true" url=""></MyButton>                    */}
                 </div>
             </div>
 
