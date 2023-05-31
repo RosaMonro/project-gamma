@@ -16,7 +16,7 @@ function App() {
   return (
     <>
       <Routes>
-        <Route path="/styleguide" element={<Styleguide />} />
+        <Route path="/Styleguide" element={<Styleguide />} />
         <Route path="/" element={<Home />} />
         <Route path="/Projects" element={<Projects />} />
         <Route path="*" element={<Error404 />} />
