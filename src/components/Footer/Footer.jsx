@@ -1,5 +1,6 @@
-// import Icon from '../Icon/Icon'
 import MyLink from '../MyLinks/MyLink'
+import IconCodepen from '../Icons/IconCodepen'
+import IconArrow from '../Icons/IconArrow'
 import './Footer.scss'
 
 export default function Footer() {
@@ -17,10 +18,11 @@ export default function Footer() {
                     <p className="contact__mail  font-weight-semibold  font-size-20-xs">Puedes escribirme a&nbsp;
                         <span className="nowrap">
                             <MyLink  variant="primary" text="rosamaria.monro" url="mailto:rosamaria.monro@gmail.com" isButton="false"></MyLink>
-                            {/* <MyButton  variant="primary" text="rosamaria.monro" url="mailto:rosamaria.monro@gmail.com" isButton="false"></MyButton> */}
                         @gmail.com</span></p>
                     
                     <div className="contact__icons">
+
+                        <MyLink isButton={false} url="https://codepen.io/RosaMonro" icon={<IconCodepen size="small" color="white" ></IconCodepen>}></MyLink>
 
                         {/* <Link  url="https://codepen.io/RosaMonro" target="_blank" icon={<Icon isLink="true" size="small" url="../../../Icons/codepen.svg" alt="Icono con enlace a codepen"/>}></Link>
                         <Link  url="https://github.com/RosaMonro" target="_blank" icon={<Icon isLink="true" size="small" url="../../../Icons/github.svg" alt="Icono con enlace a github"/>}></Link>
@@ -31,6 +33,7 @@ export default function Footer() {
                 </div>
 
                 <div className="arrow">
+                    <IconArrow size="mini" color="fucsia"></IconArrow>
                     {/* <Link  isScroll="true" url="#scroll-inicio" icon={<Icon isLink="true" size="mini" url="../../../Icons/arrow.svg" alt="Icono con enlace a inicio"/>}></Link> */}
                 </div>
 
