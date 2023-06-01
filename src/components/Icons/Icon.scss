@@ -3,9 +3,6 @@
 
 .icon {
 
-    // &:hover {
-    // }
-
     &-size--small {
 
         @include icon($w-small, $h-small);
@@ -29,6 +26,14 @@
         @include mq ($bp-small-desktop) { //1024px
             @include icon ($w-medium, $h-medium);
         }
+      }
+
+    &-hoverable:hover {
+            color: $color-fucsia;
+      }
+
+    &--arrow-hoverable:hover{
+            color: $color-white;
       }
 }
 
