@@ -1,3 +1,4 @@
+import IconWordpress from '../Icons/IconWordpress';
 import MyLink from '../MyLinks/MyLink'
 import './CardHeader.scss'
 
@@ -44,18 +45,16 @@ export default function CardHeader(props) {
             <div className="home-header__button">
                 <MyLink variant="secondary" text="Mi PORTFOLIO" isButton="true" url="/Projects"></MyLink>
                 <MyLink  variant="cta" text="CONTÁCTAME" isButton="true" url="#footer-point"></MyLink>
-                {/* <MyButton variant="secondary" text="Mi PORTFOLIO" isButton="true" url="/Projects"></MyButton>
-                <MyButton  variant="cta" text="CONTÁCTAME" isButton="true" url="#footer-point"></MyButton> */}
             </div>
 
             <div className="home-header__cta">
               <p className="font-weight-light  font-size-20-xs">¡Puedes leer más &nbsp;
                 <MyLink variant="secondary" text="sobre mí" url="#sobremi-point" isButton="false"></MyLink>
-              {/* <MyButton  variant="secondary" text="sobre mí" url="#sobremi-point" isButton="false"></MyButton> */}
               !</p>
             </div>
 
         </div>
+
 
     )
 }
