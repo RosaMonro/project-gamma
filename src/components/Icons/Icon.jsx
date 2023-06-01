@@ -7,7 +7,3 @@ import './Icon.scss'
 //         return <img className={"icon-size--" + props.size} src={props.url} alt={props.alt} />
 //     }
 // }
-
-export default function Icon (props) {
-    
-}

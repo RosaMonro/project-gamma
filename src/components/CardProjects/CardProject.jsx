@@ -48,8 +48,8 @@ export default function CardProject() {
                 <hr className="horizontal-line horizontal-line--center"></hr>
 
                 <div className="project__info__buttons">
-                    <MyLink  variant="primary" text="Ver código" isButton="true" url=""></MyLink>
-                    <MyLink  variant="primary" text="Ver proyecto" isButton="true" url=""></MyLink>
+                    <MyLink  variant="primary" text="Ver código" isButton="true" target="_blank" url=""></MyLink>
+                    <MyLink  variant="primary" text="Ver proyecto" isButton="true" target="_blank" url=""></MyLink>
                 </div>
             </div>
 
