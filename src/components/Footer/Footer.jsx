@@ -1,5 +1,7 @@
 import MyLink from '../MyLinks/MyLink'
 import IconCodepen from '../Icons/IconCodepen'
+import IconGithub from '../Icons/IconGithub'
+import IconLinkedin from '../Icons/IconLinkedin'
 import IconArrow from '../Icons/IconArrow'
 import './Footer.scss'
 
@@ -23,6 +25,8 @@ export default function Footer() {
                     <div className="contact__icons">
 
                         <MyLink isButton={false} url="https://codepen.io/RosaMonro" icon={<IconCodepen size="small" color="white" ></IconCodepen>}></MyLink>
+                        <MyLink isButton={false} url="https://github.com/RosaMonro" icon={<IconGithub size="small" color="white" ></IconGithub>}></MyLink>
+                        <MyLink isButton={false} url="https://www.linkedin.com/in/rosamariamonteroroman/" icon={<IconLinkedin size="small" color="white" ></IconLinkedin>}></MyLink>
 
                         {/* <Link  url="https://codepen.io/RosaMonro" target="_blank" icon={<Icon isLink="true" size="small" url="../../../Icons/codepen.svg" alt="Icono con enlace a codepen"/>}></Link>
                         <Link  url="https://github.com/RosaMonro" target="_blank" icon={<Icon isLink="true" size="small" url="../../../Icons/github.svg" alt="Icono con enlace a github"/>}></Link>
