@@ -4,25 +4,25 @@ import '../MyLinks/MyLink.scss'
 import React, { useState } from 'react';
 
 
-export default function CardProject() {
+export default function CardProject(props) {
 
     const [expanded, setExpanded] = useState(true);
 
 
     return (
-        <div className="project" id="scroll-inicio">
+        <article className="project" id="scroll-inicio">
             <div className="project__img">
-                <img src="../../../Alfa_byn.png" alt="" />
+                <img src={props.image} alt={props.alt} />
             </div>
 
             <div className="project__info">
 
-                <p className="h2  color-fucsia project__info__title">Lorem Ipsum</p>
+                <p className="h2  color-fucsia project__info__title">{props.title}</p>
 
                 <div className="project__info__subtitle">
                     <p className="font-size-24-s">0.1</p>
-                    <p className="font-size-16-xxs">lorem ipsum dolor sit</p>
-                    <p className="font-size-16-xxs">(xx/xx/xxxx)</p>
+                    <p className="font-size-16-xxs">{props.subtitle}</p>
+                    <p className="font-size-16-xxs">{props.date}</p>
                 </div>
 
                 <hr className="horizontal-line horizontal-line--center"></hr>
@@ -35,12 +35,10 @@ export default function CardProject() {
 
                 <hr className="horizontal-line horizontal-line--center"></hr>
 
-                <div className="project__info__abstract">
+                <div className="project__info__description">
                     <p className="font-size-24-s">0.3</p>
                     <p className="font-size-16-xxs  expandable">
-                        {expanded 
-                        ? "Lorem ipsum dolor sit amet consectetur adipiscing elit. Donec ultricies nibh sit amet ipsum tristique, ac venenatis nulla fermentum. In commodo libero at lorem scelerisque, ac blandit turpis finibus. usce malesuada sapien sed velit aliquet luctus"
-                        : "Lorem ipsum dolor sit amet consectetur adipiscing elit. Donec ultricies nibh sit amet ipsum tristique, ac venenatis nulla fermentum. In commodo libero at lorem scelerisque, ac blandit turpis finibus. usce malesuada sapien sed velit aliquet luctuLorem ipsum dolor sit amet consectetur adipiscing elit. Donec ultricies nibh sit amet ipsum tristique, ac venenatis nulla fermentum. In commodo libero at lorem scelerisque, ac blandit turpis finibus. usce malesuada sapien sed velit aliquet luctuLorem ipsum dolor sit amet consectetur adipiscing elit. Donec ultricies nibh sit amet ipsum tristique, ac venenatis nulla fermentum. In commodo libero at lorem scelerisque, ac blandit turpis finibus. usce malesuada sapien sed velit aliquet luctuLorem ipsum dolor sit amet consectetur adipiscing elit. Donec ultricies nibh sit amet ipsum tristique, ac venenatis nulla fermentum. In commodo libero at lorem scelerisque, ac blandit turpis finibus. usce malesuada sapien sed velit aliquet luctu"}
+                        {expanded ? props.abstractDescription : props.description}
                         &nbsp;<span onClick={() => setExpanded(!expanded)} className="expandable-text"> {expanded ? "Leer más" : "Leer menos"}</span>
                     </p>
                 </div>
@@ -48,12 +46,12 @@ export default function CardProject() {
                 <hr className="horizontal-line horizontal-line--center"></hr>
 
                 <div className="project__info__buttons">
-                    <MyLink  variant="primary" text="Ver código" isButton="true" target="_blank" url=""></MyLink>
-                    <MyLink  variant="primary" text="Ver proyecto" isButton="true" target="_blank" url=""></MyLink>
+                    <MyLink  isButton="true"  variant="primary" text="Ver código"  target="_blank" url=""></MyLink>
+                    <MyLink  isButton="true"  variant="primary" text="Ver proyecto" target="_blank" url=""></MyLink>
                 </div>
             </div>
 
-        </div>
+        </article>
 
     )
 }

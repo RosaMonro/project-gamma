@@ -1,0 +1,35 @@
+[
+    {
+        "id": "Abaut me",
+        "title": "Sobre mí",
+        "image": "/alfa-byn.webp",
+        "subtitle": "Proyecto 'Alfa' ESAT",
+        "date": "enero 2023",
+        "technologies": "",
+        "buttons": ""
+    },
+
+
+    {
+        "id": "Project beta",
+        "title": "SinaptikApp",
+        "image": "/beta-byn.webp",
+        "subtitle": "Proyecto 'Beta' ESAT",
+        "date": "abril 2023",
+        "technologies": "",
+        "buttons": ""
+    },
+
+
+    {
+        "id": "Tres en raya",
+        "title": "Tres en raya",
+        "image": "/tres-en-raya-byn.webp",
+        "subtitle": "Aplicación del juego del tres en raya",
+        "date": "mayo 2023",
+        "technologies": "",
+        "buttons": "" 
+    }
+
+    
+]

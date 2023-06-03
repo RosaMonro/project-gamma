@@ -33,13 +33,13 @@
 }
 
 .contain-main__photo-bg {
-    background-image: url('../../bg-movil_861.png');
+    background-image: url('../../bg-movil-861.webp');
     background-size: cover;
     background-attachment: fixed;
     background-position: center;
 
     @include mq ($bp-small-tablet) { //576px
-        background-image: url('../../bg-desktop_1400.jpg'); 
+        background-image: url('../../bg-desktop-1400.webp'); 
     }
 }
 
