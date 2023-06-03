@@ -74,7 +74,7 @@
 
 .expandable {
     overflow: hidden;
-    transition: max-height 1s ease;
+    transition: max-height 1s ease-in-out;
 
     &-text {
         height: auto;
