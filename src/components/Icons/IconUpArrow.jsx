@@ -1,9 +1,9 @@
 import './Icon.scss'
 
-export default function IconArrow (props) {
+export default function IconUpArrow (props) {
     return (
         <svg xmlns="http://www.w3.org/2000/svg"
-        className={"icon-size--" + props.size + " color-" + props.color + " icon--arrow-hoverable"} 
+        className={"icon-size--" + props.size + " color-" + props.color + " icon-hoverable--color"} 
         fill="currentColor" 
         width="24" 
         height="24"

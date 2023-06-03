@@ -2,8 +2,9 @@ import MyLink from '../MyLinks/MyLink'
 import IconCodepen from '../Icons/IconCodepen'
 import IconGithub from '../Icons/IconGithub'
 import IconLinkedin from '../Icons/IconLinkedin'
-import IconArrow from '../Icons/IconArrow'
+import IconUpArrow from '../Icons/IconUpArrow'
 import './Footer.scss'
+
 
 export default function Footer() {
     return (
@@ -33,7 +34,7 @@ export default function Footer() {
                 </div>
 
                 <div className="arrow">
-                    <MyLink isButton={false} url="#scroll-inicio" icon={<IconArrow size="mini" color="fucsia" alt="enlace a inicio"></IconArrow>}></MyLink>
+                    <MyLink isButton={false} url="#scroll-inicio" icon={<IconUpArrow size="mini" color="fucsia" alt="enlace a inicio"></IconUpArrow>}></MyLink>
                 </div>
 
             </div>

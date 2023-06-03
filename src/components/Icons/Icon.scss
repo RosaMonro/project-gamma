@@ -29,11 +29,13 @@
       }
 
     &-hoverable:hover {
-            color: $color-fucsia;
+          color: $color-fucsia;
+
+          &--color:hover{
+            color: $color-white;
+          }
       }
 
-    &--arrow-hoverable:hover{
-            color: $color-white;
-      }
+    
 }
 
