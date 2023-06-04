@@ -2,6 +2,7 @@ import MyLink from '../MyLinks/MyLink'
 import './CardProject.scss'
 import '../MyLinks/MyLink.scss'
 import React, { useState } from 'react';
+import IconHtml from '../Icons/IconHtml';
 
 
 export default function CardProject(props) {
@@ -29,8 +30,7 @@ export default function CardProject(props) {
 
                 <div className="project__info__tools">
                     <p className="font-size-24-s">0.2</p>
-                        {/* <Icon isLink="false" size="small" url="../../../Icons/html.svg" alt="Icono con enlace a codepen"></Icon>
-                        <Icon isLink="false" size="small" url="../../../Icons/css.svg" alt="Icono con enlace a codepen"></Icon> */}
+                        <IconHtml size="small" color="black" alt="icono de html"></IconHtml>
                 </div>
 
                 <hr className="horizontal-line horizontal-line--center"></hr>
