@@ -1,4 +1,3 @@
-import IconWordpress from '../Icons/IconWordpress';
 import MyLink from '../MyLinks/MyLink'
 import './CardHeader.scss'
 

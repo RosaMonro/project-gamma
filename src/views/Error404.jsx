@@ -1,5 +1,4 @@
 import MyLink from '../components/MyLinks/MyLink'
-import '../scss/global.scss'
 
 export default function Error404() {
     return (

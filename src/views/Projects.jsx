@@ -1,6 +1,5 @@
 import CardProject from '../components/CardProjects/CardProject'
 import MyLink from '../components/MyLinks/MyLink'
-import '../scss/global.scss'
 import React, { useEffect, useState } from 'react';
 
 

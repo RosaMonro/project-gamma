@@ -1,4 +1,3 @@
-import '../scss/global.scss'
 import CardHeader from '../components/CardHeader/CardHeader'
 
 
