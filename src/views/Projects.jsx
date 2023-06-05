@@ -48,6 +48,7 @@ export default function Projects() {
                 title={item.title}
                 subtitle={item.subtitle}
                 date={item.date}
+                tools={item.tools}
                 abstractDescription={item.abstractDescription}
                 description={item.description.split('\n').map((paragraph, index) => (
                     <p key={index}>{paragraph}</p>

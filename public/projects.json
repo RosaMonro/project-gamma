@@ -16,7 +16,8 @@
                 "name": "CSS",
                 "icon": "IconCss"
             }
-        ],        "buttons": ""
+        ],        
+        "buttons": ""
     },
 
 
@@ -76,18 +77,11 @@
                 "icon": "IconSass"
             },
             {
-                "name": "Javascript",
-                "icon": "IconJavascript"
-            },
-            {
-                "name": "Wordpress",
-                "icon": "IconWordpress"
-            },
-            {
                 "name": "React",
                 "icon": "IconReact"
             }
-        ],        "buttons": "" 
+        ],        
+        "buttons": "" 
     }
 
     

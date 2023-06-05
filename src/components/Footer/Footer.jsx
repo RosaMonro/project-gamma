@@ -1,8 +1,5 @@
 import MyLink from '../MyLinks/MyLink'
-import IconCodepen from '../Icons/IconCodepen'
-import IconGithub from '../Icons/IconGithub'
-import IconLinkedin from '../Icons/IconLinkedin'
-import IconUpArrow from '../Icons/IconUpArrow'
+import Icon from '../Icons/Icon'
 import './Footer.scss'
 
 
@@ -25,16 +22,16 @@ export default function Footer() {
                     
                     <div className="contact__icons">
 
-                        <MyLink isButton={false} url="https://codepen.io/RosaMonro" target="_blank" icon={<IconCodepen size="small" color="white" alt="enlace a codepen"></IconCodepen>}></MyLink>
-                        <MyLink isButton={false} url="https://github.com/RosaMonro" target="_blank" icon={<IconGithub size="small" color="white" alt="enlace a github"></IconGithub>}></MyLink>
-                        <MyLink isButton={false} url="https://www.linkedin.com/in/rosamariamonteroroman/" target="_blank" icon={<IconLinkedin size="small" color="white" alt="enlace a Linkedin"></IconLinkedin>}></MyLink>
+                        <MyLink isButton={false} url="https://codepen.io/RosaMonro" target="_blank" icon={<Icon isHoverable={true} size="small" color="white" name={"IconCodepen"} alt="enlace a codepen"></Icon>}></MyLink>
+                        <MyLink isButton={false} url="https://github.com/RosaMonro" target="_blank" icon={<Icon isHoverable={true} size="small" color="white" name={"IconGithub"} alt="enlace a github"></Icon>}></MyLink>
+                        <MyLink isButton={false} url="https://www.linkedin.com/in/rosamariamonteroroman/" target="_blank" icon={<Icon isHoverable={true} size="small" color="white" name={"IconLinkedin"} alt="enlace a Linkedin"></Icon>}></MyLink>
 
                     </div>
 
                 </div>
 
                 <div className="arrow">
-                    <MyLink isButton={false} url="#scroll-inicio" icon={<IconUpArrow size="mini" color="fucsia" alt="enlace a inicio"></IconUpArrow>}></MyLink>
+                    <MyLink isButton={false} url="#scroll-inicio" icon={<Icon isHoverable={true} size="mini" color="fucsia" name={"IconUpArraow"} alt="enlace a inicio"></Icon>}></MyLink>
                 </div>
 
             </div>

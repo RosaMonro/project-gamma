@@ -2,7 +2,7 @@ import MyLink from '../MyLinks/MyLink'
 import './CardProject.scss'
 import '../MyLinks/MyLink.scss'
 import React, { useState } from 'react';
-import IconHtml from '../Icons/IconHtml';
+import Icon from '../Icons/Icon';
 
 
 export default function CardProject(props) {
@@ -30,7 +30,7 @@ export default function CardProject(props) {
 
                 <div className="project__info__tools">
                     <p className="font-size-24-s">0.2</p>
-                        <IconHtml size="small" color="black" alt="icono de html"></IconHtml>
+                        {props.tools.map (item=><Icon isHoverable={false} size="medium" color="black" name={item.icon}></Icon>)}                        
                 </div>
 
                 <hr className="horizontal-line horizontal-line--center"></hr>
@@ -39,7 +39,7 @@ export default function CardProject(props) {
                     <p className="font-size-24-s">0.3</p>
                     <p className="font-size-16-xxs  expandable">
                         {expanded ? props.abstractDescription : props.description}
-                        &nbsp;<span onClick={() => setExpanded(!expanded)} className="expandable-text"> {expanded ? "Leer más" : "Leer menos"}</span>
+                        &nbsp;<span onClick={() => setExpanded(!expanded)} className="expandable-text nowrap"> {expanded ? "Leer más" : "Leer menos"}</span>
                     </p>
                 </div>
 
