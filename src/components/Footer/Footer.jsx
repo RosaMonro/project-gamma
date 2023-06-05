@@ -31,7 +31,7 @@ export default function Footer() {
                 </div>
 
                 <div className="arrow">
-                    <MyLink isButton={false} url="#scroll-inicio" icon={<Icon isHoverable={true} size="mini" color="fucsia" name={"IconUpArraow"} alt="enlace a inicio"></Icon>}></MyLink>
+                    <MyLink isButton={false} url="#scroll-inicio" icon={<Icon isHoverable={true} size="mini" color="fucsia" name={"IconUpArrow"} alt="enlace a inicio"></Icon>}></MyLink>
                 </div>
 
             </div>
