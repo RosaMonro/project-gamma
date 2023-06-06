@@ -8,8 +8,7 @@ import Footer from './components/Footer/Footer'
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <BrowserRouter>
-      <App />
-      <Footer title="useScroll with spring smoothing" />
+      <App title="useScroll with spring smoothing"/>
     </BrowserRouter>
   </React.StrictMode>,
 );
