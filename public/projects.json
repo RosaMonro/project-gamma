@@ -19,12 +19,12 @@
         ],
         "links": [
             {
-                "text": "Ver demo",
-                "url": "https://rosamontero-aboutme.netlify.app/"
-            },
-            {
                 "text": "Ver código",
                 "url": "https://github.com/RosaMonro/Project-Alpha.git"
+            },
+            {
+                "text": "Ver demo",
+                "url": "https://rosamontero-aboutme.netlify.app/"
             }
           ]
     },
@@ -62,13 +62,14 @@
         ],
         "links": [
             {
-                "text": "Ver demo",
-                "url": "https://esatdev.com/2022/rosa/sinaptikapp/"
-            },
-            {
                 "text": "Ver código",
                 "url": "https://github.com/RosaMonro/Project-Beta.git"
+            },
+            {
+                "text": "Ver demo",
+                "url": "https://esatdev.com/2022/rosa/sinaptikapp/"
             }
+            
           ]
     },
 
@@ -96,13 +97,14 @@
             }
         ],        
         "links": [
-            {
-                "text": "Ver demo",
-                "url": "https://rosamontero-tresenlinea.netlify.app/"
-            },
+            
             {
                 "text": "Ver código",
                 "url": "https://github.com/RosaMonro/Tres-en-linea.git"
+            },
+            {
+                "text": "Ver demo",
+                "url": "https://rosamontero-tresenlinea.netlify.app/"
             }
           ]
     }

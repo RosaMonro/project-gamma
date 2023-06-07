@@ -5,7 +5,10 @@ export default function Home() {
     return (
         <>
             <header className="home-header  home-header-bg">
-            <CardHeader name='Rosa Montero'  role='Frontend'></CardHeader>
+                <CardHeader 
+                    name='Rosa Montero'  
+                    role='Frontend'>
+                </CardHeader>
             </header>
 
             <main className='color-bg-white-darken' id="sobremi-point">

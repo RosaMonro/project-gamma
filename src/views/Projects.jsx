@@ -52,11 +52,17 @@ export default function Projects() {
                 description={item.description.split('\n').map((paragraph, index) => (
                     <p key={index}>{paragraph}</p>
                   ))}
+                links={item.links}
             />
             ))}
 
             <div className="link-home">
-                <MyLink  variant="primary" text="Volver a al inicio" isButton="false" url="/"></MyLink>
+                <MyLink  
+                  variant="primary" 
+                  text="Volver a al inicio" 
+                  isButton="false" 
+                  url="/">
+                </MyLink>
             </div>
         </main>
 
