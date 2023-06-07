@@ -9,7 +9,6 @@ export default function CardProject(props) {
 
     const [expanded, setExpanded] = useState(true);
 
-
     return (
         <article className="project" id="scroll-inicio">
             <div className="project__img">
@@ -30,7 +29,11 @@ export default function CardProject(props) {
 
                 <div className="project__info__tools">
                     <p className="font-size-24-s">0.2</p>
-                        {props.tools.map (item=><Icon isHoverable={false} size="medium" color="black" name={item.icon}></Icon>)}                        
+                        {props.tools.map (item=><Icon 
+                        isHoverable={false} 
+                        size="medium" 
+                        color="black" 
+                        name={item.icon}></Icon>)}                        
                 </div>
 
                 <hr className="horizontal-line horizontal-line--center"></hr>
@@ -46,8 +49,17 @@ export default function CardProject(props) {
                 <hr className="horizontal-line horizontal-line--center"></hr>
 
                 <div className="project__info__buttons">
+                    {props.links?.map (item=><MyLink  
+                            isButton="true"  
+                            variant="primary" 
+                            text={item.text} 
+                            target="_blank" 
+                            url={item.url}>
+                        </MyLink>)}
+
+{/* 
                     <MyLink  isButton="true"  variant="primary" text="Ver código"  target="_blank" url=""></MyLink>
-                    <MyLink  isButton="true"  variant="primary" text="Ver proyecto" target="_blank" url=""></MyLink>
+                    <MyLink  isButton="true"  variant="primary" text="Ver proyecto" target="_blank" url=""></MyLink> */}
                 </div>
             </div>
 
