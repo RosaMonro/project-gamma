@@ -2,7 +2,7 @@
     {
         "id": "Abaut me",
         "title": "Sobre mí",
-        "image": "/alfa-byn.webp",
+        "image": "/about.webp",
         "subtitle": "Proyecto 'Alfa' ESAT",
         "date": "(enero 2023)",
         "abstractDescription": "El objetivo era la creación de una one page que sirva de tarjeta de presentación personal y profesional. Este proyecto marca el inicio de mi formación en ESAT y busca proporcionar un escenario ideal para exponer mi trayectoria profesional y comunicar mis habilidades y aptitudes de manera efectiva.",
@@ -33,7 +33,7 @@
     {
         "id": "Project beta",
         "title": "SinaptikApp",
-        "image": "/beta-byn.webp",
+        "image": "/sinaptikapp.webp",
         "subtitle": "Proyecto 'Beta' ESAT",
         "date": "(abril 2023)",
         "abstractDescription": "Este proyecto tiene por objetivo la creación de un producto o servicio, y realizar una propuesta completa que ofrecer a un público específico. Es el segundo de los proyectos planteados por el centro de formación ESAT y abarca múltiples aspectos que van desde el establecimiento de la marca hasta la implementación de la web en WordPress.",
@@ -77,7 +77,7 @@
     {
         "id": "Tres en raya",
         "title": "Tres en raya",
-        "image": "/tres-en-raya-byn.webp",
+        "image": "/tres-en-raya.webp",
         "subtitle": "Aplicación del juego del tres en raya",
         "date": "(mayo 2023)",
         "abstractDescription": "El objetivo de este proyecto es el de comenzar a familiarizarse con los conceptos básicos de react",

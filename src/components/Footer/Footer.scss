@@ -68,6 +68,25 @@ footer {
     justify-content: space-between;
 }
 
+.arrow {
+    animation-name: moveUpDown;
+    animation-duration: 1.7s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+@keyframes moveUpDown {
+    0% {
+        transform: translateY(0)
+    }
+    50% {
+        transform: translateY(-1rem);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+
 .thanks {
     text-align: right;
 }
