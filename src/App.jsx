@@ -1,12 +1,12 @@
 import { Route, Routes, useLocation } from 'react-router-dom'
-import './styleguide/Styleguide'
-import './scss/global.scss'
+import { motion, useScroll, useSpring } from "framer-motion";
 import Styleguide from './styleguide/Styleguide'
 import Home from './views/Home'
 import Projects from './views/Projects'
 import Error404 from './views/Error404'
 import Footer from '../src/components/Footer/Footer'
-import { motion, useScroll, useSpring } from "framer-motion";
+import './styleguide/Styleguide'
+import './scss/global.scss'
 
 
 function App() {

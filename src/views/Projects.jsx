@@ -1,6 +1,6 @@
+import React, { useEffect, useState } from 'react';
 import CardProject from '../components/CardProjects/CardProject'
 import MyLink from '../components/MyLinks/MyLink'
-import React, { useEffect, useState } from 'react';
 
 
 export default function Projects() {

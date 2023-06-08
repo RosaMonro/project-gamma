@@ -1,5 +1,6 @@
-import './Icon.scss'
 import { iconMap } from './iconMap'
+import './Icon.scss'
+
 
 export default function Icon (props) {
     return (

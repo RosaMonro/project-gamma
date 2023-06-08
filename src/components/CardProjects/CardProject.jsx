@@ -1,8 +1,8 @@
+import React, { useState } from 'react';
 import MyLink from '../MyLinks/MyLink'
+import Icon from '../Icons/Icon';
 import './CardProject.scss'
 import '../MyLinks/MyLink.scss'
-import React, { useState } from 'react';
-import Icon from '../Icons/Icon';
 
 
 export default function CardProject(props) {
