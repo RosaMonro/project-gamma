@@ -1,0 +1,68 @@
+
+.project-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.contain-header__photo-bg {
+    background-image: url('../../bg-movil-861.webp');
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    height: 100vh;
+
+    @include mq ($bp-small-tablet) { //576px
+        background-image: url('../../bg-desktop-1400.webp'); 
+    }
+}
+
+
+.project-title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-grow: 1;
+
+    & p{
+        text-align: center;
+        margin: sp(xxs);
+    
+        @include mq ($bp-small-tablet) { //576px
+            margin: sp(xs);
+        }
+    
+        @include mq ($bp-small-desktop) { //1024px
+            margin: sp(s);
+        }
+    }
+}
+
+.link-home {
+    text-align:center;
+    padding: sp(m) sp(l);
+
+    max-width: 1150px;
+    margin-left: auto;
+    margin-right: auto;
+
+    @include mq ($bp-small-tablet) { // 576px
+        text-align:right;
+        padding: 0 sp(xl) sp(l) sp(xl);
+    }
+
+    @include mq ($bp-tablet) { // 768px
+        padding: 0 sp(s) sp(l) sp(s);
+    }
+
+    @include mq ($bp-small-desktop) { // 1024px
+        padding: 0 sp(xl) sp(xl) sp(xl);
+    }
+
+    @include mq ($bp-desktop) { // 1440px
+        padding: 0 sp(xxl)sp(xxl) sp(xxl);
+    }
+    
+}
+

@@ -1,0 +1,54 @@
+@import '../../scss/variables';
+@import '../../scss/mixins';
+
+.icon {
+
+    &-size--medium {
+
+        @include icon($w-medium, $h-medium);
+    
+        @include mq ($bp-tablet) { //768px
+            @include icon ($w-large, $h-large);
+        }
+    
+        @include mq ($bp-small-desktop) { //1024px
+            @include icon ($w-super, $h-super);
+        }
+      }
+
+      &-size--small {
+
+        @include icon($w-small, $h-small);
+    
+        @include mq ($bp-tablet) { //768px
+            @include icon ($w-medium, $h-medium);
+        }
+    
+        @include mq ($bp-small-desktop) { //1024px
+            @include icon ($w-large, $h-large);
+        }
+      }
+
+      &-size--mini {
+        @include icon($w-mini, $h-mini);
+    
+        @include mq ($bp-tablet) { //768px
+            @include icon ($w-small, $h-small);
+        }
+    
+        @include mq ($bp-small-desktop) { //1024px
+            @include icon ($w-medium, $h-medium);
+        }
+      }
+
+    &-hoverable:hover {
+          color: $color-fucsia;
+      }
+
+    &-hoverable--color:hover{
+            color: $color-white;
+          }
+
+    
+}
+

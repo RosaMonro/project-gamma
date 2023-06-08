@@ -1,0 +1,27 @@
+@import '../../scss/variables';
+
+.sg__nav {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.sg__nav__ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    list-style: none;
+    gap: 50px;
+    padding: 0;
+}
+
+.sg__nav__link {
+    color: $color-black;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.sg__nav__link:hover {
+    color: $color-grey;
+    font-size: 20px;
+}
+

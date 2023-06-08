@@ -1,0 +1,141 @@
+
+/*---VARIABLES DE COLOR---*/
+
+        /*----colores---*/
+
+        $color-selection:       #f9e998; // 5bb9a1
+
+        $color-fucsia:          #F300B4;
+        $color-fucsia-darken:   #DD00A1;
+        $color-fucsia-lighten:  #FCECF7;
+
+        $color-black:           #1B171C;
+        $color-black-lighten:   lighten($color-black, 30%);
+        $color-grey:            lighten($color-black, 60%);
+        $color-grey-lighten:    lighten($color-black, 80%);
+        $color-white-darken:    lighten($color-black, 87%);
+        $color-white:           #ffffff;
+
+        /*----Variables de color para BG----*/
+
+        $background-color-color-selection:       #f9e998;
+
+        $background-color-color-fucsia:          #F300B4;
+        $background-color-color-fucsia-darken:   darken($background-color-color-fucsia, 30%);
+        $background-color-color-fucsia-lighten:  lighten($background-color-color-fucsia, 40%);
+
+        $background-color-color-black:           #1B171C;
+        $background-color-color-black-lighten:   lighten($background-color-color-black, 30%);
+        $background-color-color-grey:            lighten($background-color-color-black, 60%);
+        $background-color-color-grey-lighten:    lighten($background-color-color-black, 80%);
+        $background-color-color-white-darken:    lighten($background-color-color-black, 87%);
+        $background-color-color-white:           #ffffff;
+
+        /*-----mapa de colores para colors y bg-colors---*/
+
+        $colors: (
+                "fucsia":           $color-fucsia,
+                "fucsia-darken":    $color-fucsia-darken,
+                "fucsia-lighten":   $color-fucsia-lighten,
+                "black":            $color-black,
+                "black-lighten":    $color-black-lighten,
+                "grey":             $color-grey,
+                "grey-lighten":     $color-grey-lighten,
+                "white-darken":     $color-white-darken,
+                "white":            $color-white,
+                "selection":        $color-selection
+        );
+
+        @each $color, $i in $colors {
+                .color-#{$color} {
+                        color: $i;
+                }
+                
+                .color-bg-#{$color} {
+                    background-color: $i;
+                }
+        }
+
+
+/*---VARIABLES DE TIPOGRAFÍA---*/
+
+        /*----familia de fuente----*/
+
+        $font-primary: 'Raleway', sans-serif;
+
+        /*----tamaños de fuente----*/
+
+        $font-size-xxs: 1.6rem; // 16px
+        $font-size-xs:  2.0rem; // 20px
+        $font-size-s:   2.4rem; // 24px
+        $font-size-m:   3.6rem; // 36px
+        $font-size-l:   4.8rem; // 48px
+        $font-size-xl:  6.4rem; // 64px
+        $font-size-xxl: 9.6rem; // 96px
+
+        $sizes: (
+                "size-16-xxs":  $font-size-xxs,
+                "size-20-xs":   $font-size-xs,
+                "size-24-s":    $font-size-s,
+                "size-36-m":    $font-size-m,
+                "size-48-l":    $font-size-l,
+                "size-64-xl":   $font-size-xl,
+                "size-96-xxl":  $font-size-xxl,
+        );
+
+        @each $size, $i in $sizes {
+                .font-#{$size} {
+                        font-size: $i;
+                }
+        }
+
+        /*----pesos de fuente----*/
+
+        $font-weight-bold:     700;
+        $font-weight-semibold: 600;
+        $font-weight-medium:   500;
+        $font-weight-light:    300;
+
+        $weights: (
+                "weight-bold":      $font-weight-bold,
+                "weight-semibold":  $font-weight-semibold,
+                "weight-medium":    $font-weight-medium,
+                "weight-light":      $font-weight-light,
+        );
+
+        @each $weight, $i in $weights {
+                .font-#{$weight} {
+                        font-weight: $i;
+                }      
+        }
+
+        /*---estilo de fuente---*/
+
+        $font-style-italic: italic;
+
+        $styles: (
+                "style-italic": $font-style-italic,
+        );
+
+        @each $style, $i in $styles {
+                .font-#{$style} {
+                        font-style: italic;
+                }
+        }
+
+/*-----MÁRGENES Y PADDINGS-----*/
+
+        $margins: (
+                "xxs":  1.2,
+                "xs":   2.4,
+                "s":    3.6,
+                "m":    4.8,
+                "l":    6.0,
+                "xl":   10.8,
+                "xxl":  12.0,
+                "giant": 20
+        );
+
+        @function sp($margin) {
+                @return map-get($margins, $margin) * 1rem;
+        }

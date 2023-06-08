@@ -1,0 +1,19 @@
+
+html {
+    font-family: $font-primary;
+    font-size: 62.5%;
+
+    scroll-behavior: smooth;
+
+  }
+
+  body {
+    margin: 0;
+  }
+
+  ::selection {
+    background-color: $color-selection;
+    color: $color-black;
+}
+
+

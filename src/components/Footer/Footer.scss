@@ -1,0 +1,92 @@
+@import '../../scss/variables';
+@import '../../scss/mixins';
+
+
+footer {
+    display: flex;
+    flex-direction: column;
+    gap: sp(xxl);
+
+    padding: sp(xs);
+
+    @include mq ($bp-small-tablet) { //576px
+        padding: sp(s);
+    }
+
+    @include mq ($bp-tablet) { //768px
+        padding: sp(m);
+    }
+
+    @include mq ($bp-small-desktop) { //1024px
+        padding: sp(l);
+    }
+
+    @include mq ($bp-desktop) { //1440px
+        padding: sp(l);
+    }
+}
+
+.contact {
+
+    @include mq ($bp-small-tablet) { //576px
+        padding-right: 0;
+    }
+
+    &__text {
+        padding-bottom: sp(xxs);
+
+        @include mq ($bp-tablet) { //768px
+            padding-bottom: sp(xs);
+        }
+    }
+
+    &__mail {
+        padding-top: sp(xxs);
+
+        @include mq ($bp-tablet) { //768px
+            padding-top: sp(xs);
+        }
+    }
+
+    &__icons {
+        display: flex;
+        gap: sp(xxs);
+
+        padding-top: sp(xxs);
+        padding-bottom: sp(xxs);
+
+        @include mq ($bp-tablet) { //768px
+            padding-top: sp(xs);
+            padding-bottom: sp(xs);
+        }
+    }
+}
+
+.contactandarrow {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.arrow {
+    animation-name: moveUpDown;
+    animation-duration: 1.7s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+@keyframes moveUpDown {
+    0% {
+        transform: translateY(0)
+    }
+    50% {
+        transform: translateY(-1rem);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+
+.thanks {
+    text-align: right;
+}

@@ -1,0 +1,63 @@
+
+.text-color--white {
+    color: $color-white;
+}
+
+.giant-text {
+    font-size: 72px;
+    font-weight: $font-weight-bold;
+    line-height: 0.7;
+    color: $color-fucsia;
+
+    @include mq ($bp-small-tablet) { //576px
+        font-size: 150px;
+    }
+
+    @include mq ($bp-small-desktop) { //1024px
+        font-size: 200px;
+    }
+}
+
+.horizontal-line {
+    border: 2.3px solid $color-fucsia; 
+
+    &--left {
+        margin-right: 35%
+    }
+
+    &--right {
+        margin-left: 50%;
+    }
+
+    &--center {
+        border: 1.5px solid $color-fucsia; 
+
+        margin: 3em auto;
+        width: 100%
+    }
+
+    &--center--big {
+        margin: 3em auto;
+        width: 70%;
+    }   
+
+    &--center--smalll {
+        margin: 3em 30%; 
+
+        @include mq ($bp-small-tablet) { //576px
+            margin: 3em 35%; 
+        }
+
+        @include mq ($bp-tablet) { //768px
+            margin: 3em 40%; 
+        }
+
+        @include mq ($bp-small-desktop) { //1024px
+            margin: 4em 40%; 
+        }
+    }
+  }
+
+  .nowrap {
+    white-space: nowrap; //garantiza que el contenido dentro de ese elemento no se dividirá en varias líneas.
+  }

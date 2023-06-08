@@ -1,0 +1,101 @@
+
+h1, 
+.h1 {
+    font-size: $font-size-m;
+    margin: 0;
+
+    @include mq ($bp-small-tablet) { //576px
+        font-size: $font-size-l;
+    }
+
+    @include mq ($bp-small-desktop) { //1024px
+        font-size: $font-size-xl;
+    }
+
+    @include mq ($bp-desktop) {
+        font-size: $font-size-xxl;
+    }
+}
+
+h2, 
+.h2 {
+    font-size: $font-size-m;
+    margin: 0;
+
+    @include mq ($bp-desktop) {
+        font-size: $font-size-xl;
+    }
+}
+
+h3, 
+.h3 {
+    font-size: $font-size-s;
+    margin: 0;
+
+    @include mq ($bp-small-tablet) { // 576px
+        font-size: $font-size-m;
+    }
+
+    @include mq ($bp-desktop) { //1440px
+        font-size: $font-size-l;
+    }
+}
+
+h4, 
+.h4 {
+    font-size: $font-size-s;
+    margin: 0;
+
+    @include mq ($bp-desktop) {
+        font-size: $font-size-m;
+    }
+}
+
+h5, 
+.h5 {
+    font-size: $font-size-xxs;
+    margin: 0;
+
+    @include mq ($bp-desktop) {
+        font-size: $font-size-s;
+    }
+}
+
+h6, 
+.h6 {
+    font-size: $font-size-xxs;
+    margin: 1em 0 0 0;
+
+    @include mq ($bp-tablet) { //768px
+        font-size: $font-size-xs;
+    }
+}
+
+/*---parrafos---*/
+
+p.font-size-24-s {
+    font-size: $font-size-s;
+    margin: 0;
+
+    @include mq ($bp-small-desktop) { //1024px
+        font-size: $font-size-m;
+    }
+}
+
+p.font-size-20-xs {
+    font-size: $font-size-xs;
+    margin: 0;
+
+    @include mq ($bp-small-desktop) { //1024px
+        font-size: $font-size-s;
+    }
+}
+
+p.font-size-16-xxs {
+    font-size: $font-size-xxs;
+    margin: 0;
+
+    @include mq ($bp-desktop) { //1440px
+        font-size: $font-size-xs;
+    }
+}

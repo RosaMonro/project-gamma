@@ -1,35 +1,39 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import { Route, Routes, useLocation } from 'react-router-dom'
+import { motion, useScroll, useSpring } from "framer-motion";
+import Styleguide from './styleguide/Styleguide'
+import Home from './views/Home'
+import Projects from './views/Projects'
+import Error404 from './views/Error404'
+import Footer from '../src/components/Footer/Footer'
+import './styleguide/Styleguide'
+import './scss/global.scss'
+
 
 function App() {
-  const [count, setCount] = useState(0)
+  const location = useLocation();
+  const is404Route = location.pathname === '/Error404';
+
+  const { scrollYProgress } = useScroll();
+  const scaleX = useSpring(scrollYProgress, {
+    stiffness: 100,
+    damping: 30,
+    restDelta: 0.001
+  });
 
   return (
-    <div className="App">
-      <div>
-        <a href="https://vitejs.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://reactjs.org" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
-    </div>
-  )
+    <>
+      <motion.div className="progress-bar" style={{ scaleX }} />
+
+      <Routes>
+        <Route path="/Styleguide" element={<Styleguide />} />
+        <Route path="/" element={<Home />} />
+        <Route path="/Projects" element={<Projects />} />
+        <Route path="*" element={<Error404 />} />
+      </Routes>
+
+      {!is404Route && <Footer />}
+    </>
+  );
 }
 
-export default App
+export default App;

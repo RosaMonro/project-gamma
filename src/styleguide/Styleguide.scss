@@ -1,0 +1,95 @@
+@import '../scss/variables';
+
+
+.sg__body {
+    background-color: $color-grey-lighten;
+}
+
+// paleta de colores
+
+.sg {
+    &__color-palette {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 10px;
+    align-items: center;
+    margin-bottom: 100px;
+    }
+
+    &__box-1, 
+    &__box-2 {
+    display: flex;
+    gap: 10px;
+    }
+
+    &__color-box {
+    width: 100px;
+    height: 100px;
+    }
+
+    &__color {
+
+        &-fucsia-darken {
+            background-color: $color-fucsia-darken;
+            border: 1px $color-black solid;
+        }
+    
+        &-fucsia {
+            background-color: $color-fucsia;
+            border: 1px $color-black solid;
+        }
+    
+        &-fucsia-lighten {
+            background-color: $color-fucsia-lighten;
+            border: 1px $color-black solid;
+        }
+    
+        &-black {
+            background-color: $color-black;
+            border: 1px $color-black solid;
+        }
+    
+        &-black-lighten {
+            background-color: $color-black-lighten;
+            border: 1px $color-black solid;
+        }
+    
+        &-grey {
+            background-color: $color-grey;
+            border: 1px $color-black solid;
+        }
+    
+        &-grey-lighten {
+            background-color: $color-grey-lighten;
+            border: 1px $color-black solid;
+        }
+    
+        &-white-darken {
+            background-color: $color-white-darken;
+            border: 1px $color-black solid;
+        }
+    
+        &-white {
+            background-color: $color-white;
+            border: 1px $color-black solid;
+        }
+        
+    }
+
+// tipografía
+
+    &__typo {
+        text-align: center;
+
+        &--headers,
+        &--paragraph {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            margin: 50px 150px;
+            text-align: left;
+            color: $color-black-lighten
+        }
+    }
+}

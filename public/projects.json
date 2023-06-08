@@ -1,0 +1,112 @@
+[
+    {
+        "id": "Abaut me",
+        "title": "Sobre mí",
+        "image": "/about.webp",
+        "subtitle": "Proyecto 'Alfa' ESAT",
+        "date": "(enero 2023)",
+        "abstractDescription": "El objetivo era la creación de una one page que sirva de tarjeta de presentación personal y profesional. Este proyecto marca el inicio de mi formación en ESAT y busca proporcionar un escenario ideal para exponer mi trayectoria profesional y comunicar mis habilidades y aptitudes de manera efectiva.",
+        "description": "El objetivo era la creación de una one page que sirva de tarjeta de presentación personal y profesional. Este proyecto marca el inicio de mi formación en ESAT y busca proporcionar un escenario ideal para exponer mi trayectoria profesional y comunicar mis habilidades y aptitudes de manera efectiva. \n El proceso de creación comprende desde la fase de investigación y prototipado en Figma hasta la maquetación y desarrollo web en Visual Studio Code. Presenta un diseño sencillo, manteniendo una apariencia visualmente agradable y una estructura intuitiva para facilitar la navegación de los visitantes. Además es un diseño responsive, que se adapta sin problemas a diferentes dispositivos para brindar una experiencia de usuario óptima.",
+        "tools": [
+            {
+                "name": "HTML",
+                "icon": "IconHtml"
+            },
+            {
+                "name": "CSS",
+                "icon": "IconCss"
+            }
+        ],
+        "links": [
+            {
+                "text": "Ver código",
+                "url": "https://github.com/RosaMonro/Project-Alpha.git"
+            },
+            {
+                "text": "Ver demo",
+                "url": "https://rosamontero-aboutme.netlify.app/"
+            }
+          ]
+    },
+
+
+    {
+        "id": "Project beta",
+        "title": "SinaptikApp",
+        "image": "/sinaptikapp.webp",
+        "subtitle": "Proyecto 'Beta' ESAT",
+        "date": "(abril 2023)",
+        "abstractDescription": "Este proyecto tiene por objetivo la creación de un producto o servicio, y realizar una propuesta completa que ofrecer a un público específico. Es el segundo de los proyectos planteados por el centro de formación ESAT y abarca múltiples aspectos que van desde el establecimiento de la marca hasta la implementación de la web en WordPress.",
+        "description": "Este proyecto tiene por objetivo la creación de un producto o servicio, y realizar una propuesta completa que ofrecer a un público específico. Es el segundo de los proyectos planteados por el centro de formación ESAT y abarca múltiples aspectos que van desde el establecimiento de la marca hasta la implementación de la web en WordPress. \n  Sipnaptikapp es un proyecto B2B de una serie de aplicaciones de estimulación cognitiva dirigidas a profesionales de la neurorrehabilitación. \n Inicié el proceso creando un Business Model Canvas y definiendo el perfil del buyer persona. Estudié la competencia y las palabras clave relevantes para la creación de un copy que transmitiera los valores y beneficios de SinaptikAPP. \n En la fase de investigación y prototipado utilicé Figma para crear diseños adaptables y atractivos, garantizando una experiencia de usuario óptima en dispositivos móviles y en escritorio y ajustándome al lenguaje y apariencia que mejor se conectara con el público objetivo.\n El proceso de desarrollo web se realizó pensando en la escalabilidad y flexibilidad del producto mediante el uso de Sass. Además, se implementó en WordPress como sistema de gestión de contenido brindando al cliente la capacidad de administrar fácilmente la web en el futuro. Dicha implementación se hizo con una combinación de código php y el uso del editor de Gutenberg.",
+        "tools": [
+            {
+                "name": "HTML",
+                "icon": "IconHtml"
+            },
+            {
+                "name": "CSS",
+                "icon": "IconCss"
+            },
+            {
+                "name": "Sass",
+                "icon": "IconSass"
+            },
+            {
+                "name": "Javascript",
+                "icon": "IconJavascript"
+            },
+            {
+                "name": "Wordpress",
+                "icon": "IconWordpress"
+            }
+        ],
+        "links": [
+            {
+                "text": "Ver código",
+                "url": "https://github.com/RosaMonro/Project-Beta.git"
+            },
+            {
+                "text": "Ver demo",
+                "url": "https://esatdev.com/2022/rosa/sinaptikapp/"
+            }
+            
+          ]
+    },
+
+
+    {
+        "id": "Tres en raya",
+        "title": "Tres en raya",
+        "image": "/tres-en-raya.webp",
+        "subtitle": "Aplicación del juego del tres en raya",
+        "date": "(mayo 2023)",
+        "abstractDescription": "El objetivo de este proyecto es el de comenzar a familiarizarse con los conceptos básicos de react",
+        "description": "El objetivo de este proyecto es el de comenzar a familiarizarse con los conceptos básicos de react. \n Se trata de una práctica habitual en el proceso de aprendizaje. A través de la implementación del tablero y la lógica del juego se adquieren habilidades en el manejo de componentes y estado en React.",
+        "tools": [
+            {
+                "name": "HTML",
+                "icon": "IconHtml"
+            },
+            {
+                "name": "CSS",
+                "icon": "IconCss"
+            },
+            {
+                "name": "React",
+                "icon": "IconReact"
+            }
+        ],        
+        "links": [
+            
+            {
+                "text": "Ver código",
+                "url": "https://github.com/RosaMonro/Tres-en-linea.git"
+            },
+            {
+                "text": "Ver demo",
+                "url": "https://rosamontero-tresenlinea.netlify.app/"
+            }
+          ]
+    }
+    
+]
