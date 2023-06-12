@@ -1,9 +1,17 @@
 import React, { useEffect, useState } from 'react';
+import { useFirestore, useFirestoreCollectionData } from "reactfire";
+import { collection, orderBy, query } from "firebase/firestore";
 import CardProject from '../components/CardProjects/CardProject'
 import MyLink from '../components/MyLinks/MyLink'
 
 
 export default function Projects() {
+
+    const cardReference = collection(useFirestore(), 'perrete');
+    const animalsQuery = query(cardReference, orderBy('title', 'asc'));
+    const data = useFirestoreCollectionData(cardReference);
+
+    console.log(data);
 
     const [jsonData, setJsonData] = useState([]);
 
@@ -24,6 +32,7 @@ export default function Projects() {
 
         <header className="project-header  contain-header__photo-bg ">
 
+
             <div className="project-title">
 
                 <hr className="horizontal-line horizontal-line--center--big"></hr>
@@ -38,6 +47,7 @@ export default function Projects() {
         </header>
 
         <main className="color-bg-white-darken">
+
 
             {jsonData.map(item => (
             <CardProject
@@ -55,6 +65,9 @@ export default function Projects() {
                 links={item.links}
             />
             ))}
+
+            {/* <h1>{ data }</h1> */}
+
 
             <div className="link-home">
                 <MyLink  

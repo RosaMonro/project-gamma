@@ -1,5 +1,7 @@
 import { Route, Routes, useLocation } from 'react-router-dom'
 import { motion, useScroll, useSpring } from "framer-motion";
+import { FirestoreProvider, useFirebaseApp } from 'reactfire';
+import { getFirestore } from 'firebase/firestore';
 import Styleguide from './styleguide/Styleguide'
 import Home from './views/Home'
 import Projects from './views/Projects'
@@ -20,18 +22,24 @@ function App() {
     restDelta: 0.001
   });
 
+  const firestoreInstance = getFirestore(useFirebaseApp());
+
   return (
     <>
-      <motion.div className="progress-bar" style={{ scaleX }} />
+      <FirestoreProvider sdk={firestoreInstance}>
 
-      <Routes>
-        <Route path="/Styleguide" element={<Styleguide />} />
-        <Route path="/" element={<Home />} />
-        <Route path="/Projects" element={<Projects />} />
-        <Route path="*" element={<Error404 />} />
-      </Routes>
+          <motion.div className="progress-bar" style={{ scaleX }} />
 
-      {!is404Route && <Footer />}
+          <Routes>
+            <Route path="/Styleguide" element={<Styleguide />} />
+            <Route path="/" element={<Home />} />
+            <Route path="/Projects" element={<Projects />} />
+            <Route path="*" element={<Error404 />} />
+          </Routes>
+
+          {!is404Route && <Footer />}
+
+      </FirestoreProvider>
     </>
   );
 }

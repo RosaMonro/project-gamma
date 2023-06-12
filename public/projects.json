@@ -1,6 +1,6 @@
 [
     {
-        "id": "Abaut me",
+        "id": "About me",
         "title": "Sobre mí",
         "image": "/about.webp",
         "subtitle": "Proyecto 'Alfa' ESAT",
@@ -105,6 +105,45 @@
             {
                 "text": "Ver demo",
                 "url": "https://rosamontero-tresenlinea.netlify.app/"
+            }
+          ]
+    },
+
+        {
+        "id": "Proyect gamma",
+        "title": "Portfolio",
+        "image": "/Portfolio.webp",
+        "subtitle": "Proyecto 'Gama' ESAT",
+        "date": "(junio 2023)",
+        "abstractDescription": "Con este proyecto pretendo dar a conocer mis trabajos y mi evolución hasta la fecha poniéndo en práctica los conocimientos adquiridos a lo largo del posgrado.",
+        "description": "Con este proyecto pretendo dar a conocer mis trabajos y mi evolución hasta la fecha poniéndo en práctica los conocimientos adquiridos a lo largo del posgrado. \n El portfolio está diseñado en figma, desarrollado en React y utilizando Vite como herramienta de compilación. De esta forma, la modularidad de los componentes me permite crear una estructura escalable. \n Los proyectos se almacenan en un archivo JSON personalizado, lo que facilita su mantenimiento y actualización. \n En una segunda fase del desarrollo de este portfolio, utilicé Firebase para integrar características adicionales, como el acceso a datos en tiempo real \n El diseño del portfolio es limpio y muy sencillo, centrándose en la presentación clara y concisa de los proyectos",
+        "tools": [
+            {
+                "name": "HTML",
+                "icon": "IconHtml"
+            },
+            {
+                "name": "CSS",
+                "icon": "IconCss"
+            },
+            {
+                "name": "Sass",
+                "icon": "IconSass"
+            },
+            {
+                "name": "React",
+                "icon": "IconReact"
+            }
+        ],        
+        "links": [
+            
+            {
+                "text": "Ver código",
+                "url": "https://github.com/RosaMonro/project-gamma.git"
+            },
+            {
+                "text": "Ver demo",
+                "url": "https://rosamontero-portfolio.netlify.app/"
             }
           ]
     }
