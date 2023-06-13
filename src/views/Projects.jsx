@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { useFirestore, useFirestoreCollectionData } from "reactfire";
-import { collection, orderBy, query } from "firebase/firestore";
+import { collection, getDocs, orderBy, query } from "firebase/firestore";
 import CardProject from '../components/CardProjects/CardProject'
 import MyLink from '../components/MyLinks/MyLink'
 
@@ -8,10 +8,9 @@ import MyLink from '../components/MyLinks/MyLink'
 export default function Projects() {
 
     const cardReference = collection(useFirestore(), 'perrete');
-    const animalsQuery = query(cardReference, orderBy('title', 'asc'));
-    const data = useFirestoreCollectionData(cardReference);
-
-    console.log(data);
+    getDocs(cardReference).then((docs) => {
+      docs.forEach((doc) => { console.log(doc.data()) });
+    });
 
     const [jsonData, setJsonData] = useState([]);
 
