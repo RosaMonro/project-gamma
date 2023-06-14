@@ -1,0 +1,25 @@
+
+        /*-----mapa y loop de colores para colors y bg-colors---*/
+
+        $colors: (
+                "fucsia":           $color-fucsia,
+                "fucsia-darken":    $color-fucsia-darken,
+                "fucsia-lighten":   $color-fucsia-lighten,
+                "black":            $color-black,
+                "black-lighten":    $color-black-lighten,
+                "grey":             $color-grey,
+                "grey-lighten":     $color-grey-lighten,
+                "white-darken":     $color-white-darken,
+                "white":            $color-white,
+                "selection":        $color-selection
+        );
+
+        @each $color, $i in $colors {
+                .color-#{$color} {
+                        color: $i;
+                }
+                
+                .color-bg-#{$color} {
+                    background-color: $i;
+                }
+        }

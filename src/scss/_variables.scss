@@ -31,31 +31,6 @@
         $background-color-color-white-darken:    lighten($background-color-color-black, 87%);
         $background-color-color-white:           #ffffff;
 
-        /*-----mapa de colores para colors y bg-colors---*/
-
-        $colors: (
-                "fucsia":           $color-fucsia,
-                "fucsia-darken":    $color-fucsia-darken,
-                "fucsia-lighten":   $color-fucsia-lighten,
-                "black":            $color-black,
-                "black-lighten":    $color-black-lighten,
-                "grey":             $color-grey,
-                "grey-lighten":     $color-grey-lighten,
-                "white-darken":     $color-white-darken,
-                "white":            $color-white,
-                "selection":        $color-selection
-        );
-
-        @each $color, $i in $colors {
-                .color-#{$color} {
-                        color: $i;
-                }
-                
-                .color-bg-#{$color} {
-                    background-color: $i;
-                }
-        }
-
 
 /*---VARIABLES DE TIPOGRAFÍA---*/
 
@@ -73,21 +48,6 @@
         $font-size-xl:  6.4rem; // 64px
         $font-size-xxl: 9.6rem; // 96px
 
-        $sizes: (
-                "size-16-xxs":  $font-size-xxs,
-                "size-20-xs":   $font-size-xs,
-                "size-24-s":    $font-size-s,
-                "size-36-m":    $font-size-m,
-                "size-48-l":    $font-size-l,
-                "size-64-xl":   $font-size-xl,
-                "size-96-xxl":  $font-size-xxl,
-        );
-
-        @each $size, $i in $sizes {
-                .font-#{$size} {
-                        font-size: $i;
-                }
-        }
 
         /*----pesos de fuente----*/
 
@@ -96,18 +56,6 @@
         $font-weight-medium:   500;
         $font-weight-light:    300;
 
-        $weights: (
-                "weight-bold":      $font-weight-bold,
-                "weight-semibold":  $font-weight-semibold,
-                "weight-medium":    $font-weight-medium,
-                "weight-light":      $font-weight-light,
-        );
-
-        @each $weight, $i in $weights {
-                .font-#{$weight} {
-                        font-weight: $i;
-                }      
-        }
 
         /*---estilo de fuente---*/
 
@@ -117,11 +65,6 @@
                 "style-italic": $font-style-italic,
         );
 
-        @each $style, $i in $styles {
-                .font-#{$style} {
-                        font-style: italic;
-                }
-        }
 
 /*-----MÁRGENES Y PADDINGS-----*/
 
