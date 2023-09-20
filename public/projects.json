@@ -1,12 +1,12 @@
 [
   {
-    "id": "Abaut me",
-    "title": "Sobre mí",
-    "image": "/about.webp",
-    "subtitle": "Proyecto 'Alfa' ESAT",
-    "date": "(enero 2023)",
-    "abstractDescription": "El objetivo era la creación de una one page que sirva de tarjeta de presentación personal y profesional. Este proyecto marca el inicio de mi formación en ESAT y busca proporcionar un escenario ideal para exponer mi trayectoria profesional y comunicar mis habilidades y aptitudes de manera efectiva.",
-    "description": "El objetivo era la creación de una one page que sirva de tarjeta de presentación personal y profesional. Este proyecto marca el inicio de mi formación en ESAT y busca proporcionar un escenario ideal para exponer mi trayectoria profesional y comunicar mis habilidades y aptitudes de manera efectiva. \n El proceso de creación comprende desde la fase de investigación y prototipado en Figma hasta la maquetación y desarrollo web en Visual Studio Code. Presenta un diseño sencillo, manteniendo una apariencia visualmente agradable y una estructura intuitiva para facilitar la navegación de los visitantes. Además es un diseño responsive, que se adapta sin problemas a diferentes dispositivos para brindar una experiencia de usuario óptima.",
+    "id": "Pokedex",
+    "title": "Pokedex",
+    "image": "/POKEDEX.webp",
+    "subtitle": "Make them yours!",
+    "date": "(septiembre 2023)",
+    "abstractDescription": "Con este buscador de recetas pretendo mejorar habilidades con JavaScript vanilla.",
+    "description": "Esta aplicación cuenta con un listado de pokemons gracias a la PokeAPI y ofrece un completo listado de Pokémons, permitiéndote consultar detalles específicos de cada uno. Además, podrás crear y gestionar tu propia lista de Pokémon favoritos. Es un proyecto personal que forma parte del proceso de aprendizaje en el desarrollo con React. \n El diseño de la aplicación evoca la estética de las consolas de los años 90 y es completamente responsive, garantizando una experiencia óptima en dispositivos de todos los tamaños. \n Sigo trabajando activamente en mejoras, incluyendo la implementación de la función de paginación entre otras características, por lo que habrá actualizaciones pronto.",
     "tools": [
       {
         "name": "HTML",
@@ -15,16 +15,134 @@
       {
         "name": "CSS",
         "icon": "IconCss"
+      },
+      {
+        "name": "Sass",
+        "icon": "IconSass"
+      },
+      {
+        "name": "React",
+        "icon": "IconReact"
       }
     ],
     "links": [
       {
         "text": "Ver código",
-        "url": "https://github.com/RosaMonro/Project-Alpha.git"
+        "url": "https://github.com/RosaMonro/pokedex.git"
       },
       {
         "text": "Ver demo",
-        "url": "https://rosamontero-aboutme.netlify.app/"
+        "url": "https://rosamontero-pokedex.netlify.app/"
+      }
+    ]
+  },
+
+  {
+    "id": "Food Recipe",
+    "title": "Cooking Cravings",
+    "image": "/RECETAS.webp",
+    "subtitle": "Let's find your culinary adventure!",
+    "date": "(julio 2023)",
+    "abstractDescription": "Con este buscador de recetas pretendo mejorar habilidades con JavaScript vanilla.",
+    "description": "Con este buscador de recetas pretendo mejorar habilidades con JavaScript vanilla. \n  La aplicación conecta con una API y la interfaz es simple, intuitiva y responsive.",
+    "tools": [
+      {
+        "name": "HTML",
+        "icon": "IconHtml"
+      },
+      {
+        "name": "CSS",
+        "icon": "IconCss"
+      },
+      {
+        "name": "Sass",
+        "icon": "IconSass"
+      },
+      {
+        "name": "Javascript",
+        "icon": "IconJavascript"
+      }
+    ],
+    "links": [
+      {
+        "text": "Ver código",
+        "url": "https://github.com/RosaMonro/Food-Recipe-App"
+      },
+      {
+        "text": "Ver demo",
+        "url": "https://rosamontero-foodrecipe.netlify.app/"
+      }
+    ]
+  },
+
+  {
+    "id": "Proyect gamma",
+    "title": "Portfolio",
+    "image": "/Portfolio.webp",
+    "subtitle": "Proyecto 'Gama' ESAT",
+    "date": "(junio 2023)",
+    "abstractDescription": "Con este proyecto pretendo dar a conocer mis trabajos y mi evolución hasta la fecha poniéndo en práctica los conocimientos adquiridos a lo largo del posgrado.",
+    "description": "Con este proyecto pretendo dar a conocer mis trabajos y mi evolución hasta la fecha poniéndo en práctica los conocimientos adquiridos a lo largo del posgrado. \n El portfolio está diseñado en figma, desarrollado en React y utilizando Vite como herramienta de compilación. De esta forma, la modularidad de los componentes me permite crear una estructura escalable. \n Los proyectos se almacenan en un archivo JSON personalizado, lo que facilita su mantenimiento y actualización. \n El diseño del portfolio es limpio y muy sencillo, centrándose en la presentación clara y concisa de los proyectos",
+    "tools": [
+      {
+        "name": "HTML",
+        "icon": "IconHtml"
+      },
+      {
+        "name": "CSS",
+        "icon": "IconCss"
+      },
+      {
+        "name": "Sass",
+        "icon": "IconSass"
+      },
+      {
+        "name": "React",
+        "icon": "IconReact"
+      }
+    ],
+    "links": [
+      {
+        "text": "Ver código",
+        "url": "https://github.com/RosaMonro/project-gamma.git"
+      },
+      {
+        "text": "Ver demo",
+        "url": "https://rosamontero-portfolio.netlify.app/"
+      }
+    ]
+  },
+
+  {
+    "id": "Tres en raya",
+    "title": "Tres en raya",
+    "image": "/tres-en-raya.webp",
+    "subtitle": "Aplicación del juego del tres en raya",
+    "date": "(mayo 2023)",
+    "abstractDescription": "El objetivo de este proyecto es el de comenzar a familiarizarse con los conceptos básicos de react",
+    "description": "El objetivo de este proyecto es el de comenzar a familiarizarse con los conceptos básicos de react. \n Se trata de una práctica habitual en el proceso de aprendizaje. A través de la implementación del tablero y la lógica del juego se adquieren habilidades en el manejo de componentes y estado en React.",
+    "tools": [
+      {
+        "name": "HTML",
+        "icon": "IconHtml"
+      },
+      {
+        "name": "CSS",
+        "icon": "IconCss"
+      },
+      {
+        "name": "React",
+        "icon": "IconReact"
+      }
+    ],
+    "links": [
+      {
+        "text": "Ver código",
+        "url": "https://github.com/RosaMonro/Tres-en-linea.git"
+      },
+      {
+        "text": "Ver demo",
+        "url": "https://rosamontero-tresenlinea.netlify.app/"
       }
     ]
   },
@@ -72,13 +190,13 @@
   },
 
   {
-    "id": "Tres en raya",
-    "title": "Tres en raya",
-    "image": "/tres-en-raya.webp",
-    "subtitle": "Aplicación del juego del tres en raya",
-    "date": "(mayo 2023)",
-    "abstractDescription": "El objetivo de este proyecto es el de comenzar a familiarizarse con los conceptos básicos de react",
-    "description": "El objetivo de este proyecto es el de comenzar a familiarizarse con los conceptos básicos de react. \n Se trata de una práctica habitual en el proceso de aprendizaje. A través de la implementación del tablero y la lógica del juego se adquieren habilidades en el manejo de componentes y estado en React.",
+    "id": "Abaut me",
+    "title": "Sobre mí",
+    "image": "/about.webp",
+    "subtitle": "Proyecto 'Alfa' ESAT",
+    "date": "(enero 2023)",
+    "abstractDescription": "El objetivo era la creación de una one page que sirva de tarjeta de presentación personal y profesional. Este proyecto marca el inicio de mi formación en ESAT y busca proporcionar un escenario ideal para exponer mi trayectoria profesional y comunicar mis habilidades y aptitudes de manera efectiva.",
+    "description": "El objetivo era la creación de una one page que sirva de tarjeta de presentación personal y profesional. Este proyecto marca el inicio de mi formación en ESAT y busca proporcionar un escenario ideal para exponer mi trayectoria profesional y comunicar mis habilidades y aptitudes de manera efectiva. \n El proceso de creación comprende desde la fase de investigación y prototipado en Figma hasta la maquetación y desarrollo web en Visual Studio Code. Presenta un diseño sencillo, manteniendo una apariencia visualmente agradable y una estructura intuitiva para facilitar la navegación de los visitantes. Además es un diseño responsive, que se adapta sin problemas a diferentes dispositivos para brindar una experiencia de usuario óptima.",
     "tools": [
       {
         "name": "HTML",
@@ -87,96 +205,16 @@
       {
         "name": "CSS",
         "icon": "IconCss"
-      },
-      {
-        "name": "React",
-        "icon": "IconReact"
       }
     ],
     "links": [
       {
         "text": "Ver código",
-        "url": "https://github.com/RosaMonro/Tres-en-linea.git"
+        "url": "https://github.com/RosaMonro/Project-Alpha.git"
       },
       {
         "text": "Ver demo",
-        "url": "https://rosamontero-tresenlinea.netlify.app/"
-      }
-    ]
-  },
-
-  {
-    "id": "Proyect gamma",
-    "title": "Portfolio",
-    "image": "/Portfolio.webp",
-    "subtitle": "Proyecto 'Gama' ESAT",
-    "date": "(junio 2023)",
-    "abstractDescription": "Con este proyecto pretendo dar a conocer mis trabajos y mi evolución hasta la fecha poniéndo en práctica los conocimientos adquiridos a lo largo del posgrado.",
-    "description": "Con este proyecto pretendo dar a conocer mis trabajos y mi evolución hasta la fecha poniéndo en práctica los conocimientos adquiridos a lo largo del posgrado. \n El portfolio está diseñado en figma, desarrollado en React y utilizando Vite como herramienta de compilación. De esta forma, la modularidad de los componentes me permite crear una estructura escalable. \n Los proyectos se almacenan en un archivo JSON personalizado, lo que facilita su mantenimiento y actualización. \n El diseño del portfolio es limpio y muy sencillo, centrándose en la presentación clara y concisa de los proyectos",
-    "tools": [
-      {
-        "name": "HTML",
-        "icon": "IconHtml"
-      },
-      {
-        "name": "CSS",
-        "icon": "IconCss"
-      },
-      {
-        "name": "Sass",
-        "icon": "IconSass"
-      },
-      {
-        "name": "React",
-        "icon": "IconReact"
-      }
-    ],
-    "links": [
-      {
-        "text": "Ver código",
-        "url": "https://github.com/RosaMonro/project-gamma.git"
-      },
-      {
-        "text": "Ver demo",
-        "url": "https://rosamontero-portfolio.netlify.app/"
-      }
-    ]
-  },
-
-  {
-    "id": "Food Recipe",
-    "title": "Cooking Cravings",
-    "image": "/RECETAS.webp",
-    "subtitle": "Let's find your culinary adventure!",
-    "date": "(julio 2023)",
-    "abstractDescription": "Con este buscador de recetas pretendo mejorar habilidades con JavaScript vanilla.",
-    "description": "Con este buscador de recetas pretendo mejorar habilidades con JavaScript vanilla. \n  La aplicación conecta con una API y la interfaz es simple, intuitiva y responsive.",
-    "tools": [
-      {
-        "name": "HTML",
-        "icon": "IconHtml"
-      },
-      {
-        "name": "CSS",
-        "icon": "IconCss"
-      },
-      {
-        "name": "Sass",
-        "icon": "IconSass"
-      },
-      {
-        "name": "Javascript",
-        "icon": "IconJavascript"
-      }
-    ],
-    "links": [
-      {
-        "text": "Ver código",
-        "url": "https://github.com/RosaMonro/Food-Recipe-App"
-      },
-      {
-        "text": "Ver demo",
-        "url": "https://rosamontero-foodrecipe.netlify.app/"
+        "url": "https://rosamontero-aboutme.netlify.app/"
       }
     ]
   }
