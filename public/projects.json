@@ -5,7 +5,7 @@
     "image": "/POKEDEX.webp",
     "subtitle": "Make them yours!",
     "date": "(septiembre 2023)",
-    "abstractDescription": "Esta aplicación cuenta con un listado de pokemons gracias a la PokeAPI y ofrece un completo listado de Pokémons,",
+    "abstractDescription": "Esta aplicación cuenta con un listado de pokemons gracias a la PokeAPI y ofrece un completo listado de Pokémons, permitiéndote consultar detalles específicos de cada uno. Además, podrás crear y gestionar tu propia lista de Pokémon favoritos. Es un proyecto personal que forma parte del proceso de aprendizaje en el desarrollo con React.",
     "description": "Esta aplicación cuenta con un listado de pokemons gracias a la PokeAPI y ofrece un completo listado de Pokémons, permitiéndote consultar detalles específicos de cada uno. Además, podrás crear y gestionar tu propia lista de Pokémon favoritos. Es un proyecto personal que forma parte del proceso de aprendizaje en el desarrollo con React. \n El diseño de la aplicación evoca la estética de las consolas de los años 90 y es completamente responsive, garantizando una experiencia óptima en dispositivos de todos los tamaños. \n Sigo trabajando activamente en mejoras, incluyendo la implementación de la función de paginación entre otras características, por lo que habrá actualizaciones pronto.",
     "tools": [
       {
