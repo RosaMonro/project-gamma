@@ -41,11 +41,11 @@ export default function Home() {
               </p>
 
               <h4 className="h6  font-weight-medium  color-fucsia-darken">
-                Neurociencias
+                Neuropsicología
               </h4>
               <p className="font-size-16-xxs  font-weight-light">
                 He dedicado años a estudiar y trabajar en el campo de la
-                neuropsicología. Tengo amplia experiencia en la administración e
+                neurociencia. Tengo amplia experiencia en la administración e
                 interpretación de valoraciones cognitivas, análisis de conducta
                 y creación de planes de tratamiento y rehabilitación en daño
                 cerebral en colaboración con equipos interdisciplinarios.

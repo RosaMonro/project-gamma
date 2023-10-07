@@ -5,7 +5,7 @@ import React, { useEffect, useState } from "react";
 
 export default function CardHeader(props) {
   const [typedText, setTypedText] = useState("");
-  const targetText = "Frontend-UI";
+  const targetText = "UX-Developer";
 
   useEffect(() => {
     const delay = 200; // Delay entre cada letra (en milisegundos)
